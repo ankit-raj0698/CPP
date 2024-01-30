@@ -17,7 +17,8 @@ class Solution{
     int ans=-1;
     while(right < s.length()){
         mp[s[right]]++;
-        
+
+      //(left < right) is optional
         while((left < right) && mp.size() > k){
             mp[s[left]]--;
             if(mp[s[left]] == 0){
