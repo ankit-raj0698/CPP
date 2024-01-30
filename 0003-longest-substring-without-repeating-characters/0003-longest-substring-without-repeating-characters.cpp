@@ -10,8 +10,11 @@ public:
             //update frequency of character 
              mp[s[right]]++;
 
-            // when map size < window size so it means repeating character so start removing                character from window left i.e.. update count of character at left
-            //If count of character at left is 0 so delete key from map and increment left                  pointer
+            // when map size < window size so it means repeating character 
+            //so start removing character from window left 
+            //i.e.. update count of character at left
+            //If count of character at left is 0 so delete key from map 
+            //and increment left pointer
             
             while(mp.size() < (right-left+1) ){
                 mp[s[left]]--;
