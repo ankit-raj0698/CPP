@@ -14,10 +14,9 @@ public:
     {
         // code here
         sort(arr.begin(),arr.end());
-        int left=0;
         int right=0;
         int ans=0;
-        while(right < N && K > 0 ){
+        while(right < N){
             if(arr[right] <= K){
                 ans++;
                 K-=arr[right];
