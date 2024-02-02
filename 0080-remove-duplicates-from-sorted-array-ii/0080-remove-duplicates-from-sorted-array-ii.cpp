@@ -9,7 +9,7 @@ public:
         // wahan pe khada hoke pucho ki usse 2 element pehle kaun h 
         // i.e.. "i-2" index pe kaun h 
         // Agar "i-2" index pe diff element h current index i.e.."j" index se
-        // to mtlb "i" index pe insert kr skte h
+        // to mtlb "i" index pe current element i.e.. "j" index ko insert kr skte h
         for(int j=0;j<nums.size();j++){
             if(j == 0 || j == 1 || nums[i-2] != nums[j]){
                 nums[i++] = nums[j];
