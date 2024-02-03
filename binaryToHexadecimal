@@ -1,0 +1,36 @@
+string binaryToHexa(string binary){
+
+    int count=0;
+	  int ans=0;
+    string hexa="";
+    
+	
+    for(int i=0;i<binary.length();i++){
+	
+	// As ch can be only 0 or 1.
+	// so whatever values is in binary[i] subtract it with character '0'
+	
+        int ch=binary[i]-'0';
+        //ans=ans*2+ch;  //convert binary to decimal.Multiply ans by 2 and then add the current digit
+        ans=(ans<<1)|ch; 
+        count++;
+		
+		//when we have reached to the 4th digit, represent decimal no in hexadecimal form
+		
+        if(count==4){
+            if(ans<10){
+                hexa+='0'+ans;
+            }
+            else{
+                hexa+='A'+(ans-10);
+            }
+			
+            cout<<hexa<<endl;
+            count=0;
+            ans=0;
+			
+        } // end of if block    
+    }// end of for loop
+    
+   return hexa;  
+}
