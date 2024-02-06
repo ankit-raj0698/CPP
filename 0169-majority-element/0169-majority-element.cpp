@@ -22,13 +22,16 @@ public:
        int candidate=0;
 
        for(int i=0;i<nums.size();i++){
+           //Assume element whoever count=0 as potential answer
            if(count==0){
                candidate=nums[i];
            }
 
+           //when current element is potential answer increment count
            if(nums[i]==candidate){
                count++;
            }
+           // otherwise decrement count
            else{
                count--;
            }
