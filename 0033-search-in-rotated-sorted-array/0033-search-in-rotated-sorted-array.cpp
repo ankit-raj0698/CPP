@@ -42,7 +42,7 @@ public:
         int end=nums.size()-1;
         int ans=-1;
         int pivot=getPivot(nums);
-        
+        //cout<<pivot;
         if(pivot==-1){
             ans=binarySearch(nums,0,end,target);
         }
