@@ -18,12 +18,12 @@ public:
         if(root==nullptr)
             return 0;
         
-        //Induction : find ht of root->left and root->right
+        //Hypothesis : find ht of root->left and root->right
         // for func(n) find func(n-1)      
         int left = maxDepth(root->left);
         int right = maxDepth(root->right);
         
-        //Hypothesis : Extra work to be done
+        //Induction : Extra work to be done
         //To calculate ht of tree find max ht of left,right subtree and add 1 for root node
         return 1 + max(left,right);    
         
