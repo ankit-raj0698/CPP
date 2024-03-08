@@ -1,0 +1,55 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void insert(vector<int> &nums,int temp){
+  //insert 1 in {2,3,5}
+  int n = nums.size();
+  
+  //Base Case
+  if(n == 0 || nums[n-1] <= temp){
+      nums.push_back(temp);
+      return;
+  }
+  
+  //Hypothesis
+  int val = nums[n-1];
+  nums.pop_back();
+  //call insert on size n-1
+  insert(nums,temp);
+  
+  //Induction : put "val" at the end after work is done
+  nums.push_back(val);
+  
+}
+
+void sort(vector<int> &nums){
+
+    int n = nums.size();
+    
+    //Base case : if only one element in array then array is already sorted so nothing to do now, simply return
+    if(n == 1){
+        return;
+    }
+    
+    //Hypothesis
+    int temp=nums[n-1];
+    nums.pop_back();
+    //sort nums of size (n-1)
+    sort(nums);
+    
+    //Induction : insert "temp" at correct position
+    insert(nums,temp);
+    
+}
+
+int main() {
+   vector<int> nums{5,2,3,1};
+   sort(nums);
+   
+   cout<<"sorted Array"<<endl;
+   for(int x:nums){
+       cout<<x<<" ";
+   }
+
+    return 0;
+}
