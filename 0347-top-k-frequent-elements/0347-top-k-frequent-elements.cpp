@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+    create an unordered map to count freq of each element in input array
+    create a min heap to store {freq,element} of k elements
+    if size of min heap exceeds k, pop from heap
+    iterate through the min heap of k elements and store the elements in answer 
+    */
     vector<int> topKFrequent(vector<int>& nums, int k) {
         
         typedef pair<int,int> P;
@@ -26,6 +32,7 @@ public:
        //store answer
        vector<int> res;
        while(!pq.empty()){
+           //element is present in second of pair
             res.push_back(pq.top().second);
             pq.pop();
         }
