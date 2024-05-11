@@ -16,21 +16,18 @@ public:
         }
         
         int zeroCount = n - nonZeroCount;
-        vector<int> ans;
+        vector<int> ans(n,0);
         
         if(zeroCount >= 2){
-            for(int i=0;i<nums.size();i++){
-                ans.push_back(0);
-            }
             return ans;
         }
         
-        for(auto ele:nums){
-            if(ele == 0){
-                ans.push_back(productWithoutZero);
+        for(int i=0;i<n;i++){
+            if(nums[i] == 0){
+                ans[i] = productWithoutZero;
             }
             else{
-                ans.push_back(product/ele);
+                ans[i] = (product/nums[i]);
             }
             
         }
