@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /*
+    create an unordered map to store freq of each element
+    create a 2D bucket vector to store freq of element as index "i" and index "j" as vector     of elements with freq "i"
+    iterate through the bucket vector from right to left
+    if bucket[i] is not empty and k > 0 push the element in answer and decrement k and pop that element from bucket[i]
+    */
     vector<int> topKFrequent(vector<int>& nums, int k) {
         
         int n = nums.size();
