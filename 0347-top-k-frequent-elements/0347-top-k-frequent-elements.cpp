@@ -1,34 +1,34 @@
 class Solution {
 public:
-    /*
-    create an unordered map to count frequency of each element
-    create a 2D vector to store freq in "i" and vector of elements in "j" that is this 2D       vector will contain vector of elements corresponding to the count of element
-    iterate through this 2D vector from size()-1 and push_back the elements in answer
-    when size of answer is equal to k return the answer
-    */
     vector<int> topKFrequent(vector<int>& nums, int k) {
         
-        vector<int> res;
-        if(!nums.size()){
-            return res;
-        }
-        
+        typedef pair<int,int> P;
+        //create a map and store freq of each element
         unordered_map<int,int> count;
-        vector<vector<int>> freq(nums.size()+1);
-        
         for(auto ele:nums){
             count[ele]++;
         }
+        
+        //create a min heap to store freq and element
+        //But we want to store freq as well as element so use pair
+        priority_queue<P,vector<P>,greater<P>> pq;
         for(auto ele:count){
-            freq[ele.second].push_back(ele.first);
-        }       
-        for(int i=freq.size()-1;i>=0;i--){
-            for(int j=0;j<freq[i].size();j++){
-                res.push_back(freq[i][j]);
-                if(res.size() == k)               
-                    return res;
-            }           
+            int value = ele.first;
+            int freq = ele.second;
+            //in the min heap push {freq,value} first so that min heap is created on freq
+            pq.push({freq,value});
+            //when size of min heap exceeds k, pop 
+            if(pq.size()>k){
+                pq.pop();
+            }
         }
-       return res; 
+        
+       //store answer
+       vector<int> res;
+       while(!pq.empty()){
+            res.push_back(pq.top().second);
+            pq.pop();
+        }
+       return res;
     }
 };
