@@ -1,5 +1,12 @@
 class Solution {
 public:
+    /*
+    sort the input array so that two sum concept can be used
+    nums[i] + nums[j] + nums[k] = 0 ==> nums[j] + nums[k] = -nums[i](target)
+    iterate i from 0 to n-2 to ensure that there are at least two more elements for j and k
+    j = i + 1 and k = n - 1 and apply two sum now
+    to handle duplicate triplets compare the adjacent elements for i,j,k
+    */
     vector<vector<int>> threeSum(vector<int>& nums) {
         int n = nums.size();
         vector<vector<int>> ans;
@@ -10,8 +17,8 @@ public:
             return ans;
         }
         
-        for(int i = 0; i < n; i++){
-            
+        for(int i = 0; i < n-2; i++){
+            //made mistake here by using a while loop in place of if block
             if( i > 0 && nums[i] == nums[i-1]){
                         continue;
                     }
@@ -31,10 +38,12 @@ public:
                     ans.push_back({nums[i],nums[j],nums[k]});
                     j++;
                     k--;
+                    
+                    //handle duplicate elements for index j
                     while( j < k && nums[j] == nums[j-1]){
                         j++;
                     }
-                    
+                    //handle duplicate elements for index k
                     while( j < k && nums[k] == nums[k+1]){
                         k--;;
                     }
