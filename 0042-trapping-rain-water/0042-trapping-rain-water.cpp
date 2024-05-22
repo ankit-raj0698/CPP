@@ -1,6 +1,54 @@
 class Solution {
 public:
+    /*
+    two pointer approach
+    iterate the loop while (left < right)
+    maintain two variable leftmax and rightmax
+    initialize leftmax = leftmost element of input array
+    initialize rightmax = rightmost element of input array
+    whichever is smaller among leftmax and rightmax update it
+    if leftmax is smaller than rightmax do left++ otherwise right--
+    tempWaterTrap = leftmax or rightmax - height[left] or height[right]
+    if tempWaterTrap < 0 , do tempWaterTrap = 0
+    store tempWaterTrap in ans
+    update leftmax and rightmax accordingly    
+    */
     
+    int trap(vector<int>& height) {
+        
+        int left = 0;
+        int right = height.size()-1;
+        
+        int leftmax = height[left];
+        int rightmax = height[right];
+        
+        int ans = 0;
+        
+        while(left < right){
+           
+            if(leftmax < rightmax){
+            left++;
+            int res = leftmax - height[left];
+            
+            if(res < 0)
+                res = 0;
+                
+            ans+=res;
+            leftmax = max(leftmax,height[left]);
+        }
+        else{
+            right--;
+            int res = rightmax - height[right];
+            
+            if(res < 0)
+                res = 0;
+            
+            ans+=res;
+            rightmax = max(rightmax,height[right]);
+        }            
+    }      
+        return ans;
+    }
     
     
     /*
@@ -14,6 +62,7 @@ public:
     ans = ans + res
     */
     
+    /*
     int trap(vector<int>& height) {
         int n = height.size();
         vector<int> leftmax(n);
@@ -40,4 +89,5 @@ public:
         }
         return ans;
     }
+    */
 };
