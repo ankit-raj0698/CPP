@@ -1,11 +1,20 @@
 class Solution {
 public:
+    /*
+    sliding window left and right = 0
+    use an unordered set to track unique elements seen till now
+    iterate till right reaches the last index of input string
+    if char "s[right]" is already in the set so shrink the window size from left
+    so delete the char at s[left] from set and increment left pointer
+    otherwise insert the current char s[right] in the set
+    increment the right pointer everytime   
+    */
     int lengthOfLongestSubstring(string s) {
         unordered_set<char> charSet;
-        int left = 0;
-        int length = 0;
+        int left = 0,right = 0;
+        int maxLength = 0;
         
-        for(int right =0; right<s.size();right++){
+        while(right<s.size()){
             //char "s[right]" is already in the set so shrink the window size from left
             while(charSet.find(s[right]) != charSet.end()){
                 charSet.erase(s[left]);
@@ -13,8 +22,9 @@ public:
             }
             // when char is not in set so insert in the set
             charSet.insert(s[right]);
-            length = max(length,right - left + 1);
+            maxLength = max(maxLength,right - left + 1);
+            right++;
         }
-        return length;
+        return maxLength;
     }
 };
