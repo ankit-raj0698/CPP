@@ -7,11 +7,11 @@ public:
     initialize leftmax = leftmost element of input array
     initialize rightmax = rightmost element of input array
     whichever is smaller among leftmax and rightmax update it
-    if leftmax is smaller than rightmax do left++ otherwise right--
-    tempWaterTrap = leftmax or rightmax - height[left] or height[right]
-    if tempWaterTrap < 0 , do tempWaterTrap = 0
+    1. if leftmax is smaller than rightmax do left++ otherwise right--
+    2. tempWaterTrap = leftmax or rightmax - height[left] or height[right] acc to updation in prev step
+    3. if tempWaterTrap < 0 , do tempWaterTrap = 0
     store tempWaterTrap in ans
-    update leftmax and rightmax accordingly    
+    4. update leftmax and rightmax accordingly    
     */
     
     int trap(vector<int>& height) {
