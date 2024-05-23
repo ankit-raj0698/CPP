@@ -27,14 +27,19 @@ public:
             int j = i + 1;
             int k = n - 1;
             
+            //Apply two sum concept
             while(j < k){
-                if(nums[j] + nums[k] < target){
+                
+                int sum = nums[j] + nums[k];
+                
+                if( sum < target ){
                     j++;
                 }
-                else if(nums[j] + nums[k] > target){
+                else if( sum > target){
                     k--;
                 }
                 else{
+                    //push the triplet in ans
                     ans.push_back({nums[i],nums[j],nums[k]});
                     j++;
                     k--;
