@@ -28,8 +28,8 @@ public:
         for(auto ele:s){
             
             if(s.find(ele-1) == s.end()){   
+                
                 int length = 1;
-                int n = ele;
                 
                 while(s.find(ele + 1) != s.end()){
                     length++;
@@ -44,6 +44,7 @@ public:
     
     /*
     // take a lastSmaller = INT_MIN and initial length to be 1
+    // sort the array
     // iterate through the array starting from "0" to "n-1"
     // check if "arr[i] - 1" is less than lastSmaller then it is part of consecutive sequence
     // so update the length that is length++ and lastSmaller to be current element i.e.. arr[i]
