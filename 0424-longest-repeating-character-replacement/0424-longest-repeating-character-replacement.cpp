@@ -1,5 +1,12 @@
 class Solution {
 public:
+    /*
+    create a vector to count freq of each element on the go 
+    track the maxFreqCount
+    when windowsize - maxFreqCount <= k then calculate result that is find maxLength
+    otherwise update the left pointer to shrink sliding window
+    increment the right pointer everytime
+    */
     int characterReplacement(string s, int k) {
         vector<int> count(26,0);
         int maxFreqCount = 0;
