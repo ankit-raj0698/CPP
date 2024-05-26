@@ -7,32 +7,23 @@ class Solution{
 public:
     long maximumSumSubarray(int K, vector<int> &Arr , int N){
         // code here 
-        /*int i=0;
-        long maxSum=INT_MIN;
-        long currSum=0;
-        for(int j=0;j<N;j++){
-            currSum+=Arr[j];
-            if(j-i+1==K){
-                maxSum=max(maxSum,currSum);
-                currSum-=Arr[i];
-                i++;
-            }
-        }
-        return maxSum;*/
+        int left = 0;
+        int right = 0;
+        long maxSum = INT_MIN;
+        long sum = 0;
         
-        int left=0,right=0;
-        long maxSum=INT_MIN;
-        long currSum=0;
-        while(right<N){
-            currSum+=Arr[right];
-            if(right-left+1==K){
-                maxSum=max(maxSum,currSum);
-                currSum-=Arr[left];
-                left++;
+        while(right < Arr.size()){
+            sum += Arr[right];
+            
+            if(right - left + 1 == K){
+                maxSum = max(maxSum,sum);
+                sum -= Arr[left++];
             }
+            
             right++;
         }
-        return maxSum;
+        
+       return maxSum; 
     }
 };
 
