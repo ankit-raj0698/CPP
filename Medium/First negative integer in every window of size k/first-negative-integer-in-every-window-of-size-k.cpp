@@ -32,28 +32,37 @@ int main() {
 vector<long long> printFirstNegativeInteger(long long int A[],
                                              long long int N, long long int K) {
                                                  
-    long long int left=0,right=0;
-    list<long long> temp;
-    vector<long long> ans;
-    
-    while(right<N){
-        if(A[right]<0){
-            temp.push_back(A[right]);
-        }
-        if(right-left+1 == K){
-            if(temp.empty()){
-                ans.push_back(0);
-            }
-            else{
-                ans.push_back(temp.front());
-                if(A[left]==temp.front()){
-                    temp.pop_front();
-                }
-            }
-            left++;
-        }
-        right++;
-    }
+                                                 int left = 0;
+                                                 int right = 0;
+                                                 vector<long long> ans;
+                                                 list<long long int> neg;
                                                  
-    return ans;                                             
+                                                 while( right < N){
+                                                     //calculations : store all the -ve no in list
+                                                     if(A[right] < 0){
+                                                         neg.push_back(A[right]);
+                                                     }
+                                                     
+                                                     // window size == k
+                                                     if(right - left + 1 == K ){
+                                                         if(neg.size() == 0){
+                                                             ans.push_back(0);
+                                                         }
+                                                         else{
+                                                             ans.push_back(neg.front());
+                                                             if(neg.front() == A[left]){
+                                                                 neg.pop_front();
+                                                             }
+                                                         }
+                                                         left++;
+                                                     }
+                                                     
+                                                     right++;
+                                                 }
+                                                 return ans;
+                                                 
+                                                 
+                                                 
+                                                 
+                                                 
  }
