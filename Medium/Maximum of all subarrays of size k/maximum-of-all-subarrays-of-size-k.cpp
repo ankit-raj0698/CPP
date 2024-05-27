@@ -15,39 +15,32 @@ class Solution
     vector <int> max_of_subarrays(int *arr, int n, int k)
     {
         // your code here
-        int left=0,right=0;
-        
-        //using a list to keep track of max element
-        list<int> maxList;
+        int left = 0,  right = 0;
         vector <int> ans;
-        
-        while(right<n){
+        list <int> l;
+        while(right < n){
             
-            //Calculation
-            //Remove all the element which is lower than current element from maxlist
-            //elements left to max is of no use so remove them 
-            //as when we are sliding the window they have to be deleted
-            // element right to max may be useful to push them to maxList 
-            
-            while(!maxList.empty() && maxList.back() < arr[right]){
-                maxList.pop_back();
+            // delete all the smaller element than current element from list
+            // push the current max in the list
+            while(l.size() > 0 && l.back() < arr[right]){
+                l.pop_back();
             }
-            //2nd,3rd....largest element may be useful for our calculation
-            maxList.push_back(arr[right]);
+            l.push_back(arr[right]);
             
-            if(right-left+1 == k){
-                //Store  ans
-                ans.push_back(maxList.front());
+            
+            //window size == k
+            if(right - left + 1 == k){
+                ans.push_back(l.front());
                 
-                //Slide the window
-                if(arr[left]==maxList.front()){
-                    maxList.pop_front();
+                //slide the window
+                if(l.front() == arr[left]){
+                    l.pop_front();
                 }
                 left++;
             }
             right++;
         }
-        return ans;
+      return ans;  
     }
 };
 
