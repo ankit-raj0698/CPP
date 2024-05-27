@@ -10,42 +10,43 @@ class Solution{
 public:
 	int search(string pat, string txt) {
 	    // code here
-	    int windowLeft=0,windowRight=0;
-	    int ans=0;
-	    
-	    //create two vectors to count frequency of each character
-	    vector<int> patArr(26,0);
-	    vector<int> txtArr(26,0);
-	    
-	    //Size of window will be equal to length of pattern
-	    int K=pat.length();
-	    
-	    //Find frequency of each character in pattern
-	    for(char c:pat){
-	        patArr[c-'a']++;
+	    int k = pat.size();
+	    unordered_map<char,int> mp;
+	    // count freq of each element in pattern
+	    for(char c: pat){
+	        mp[c]++;
 	    }
 	    
-	    //loop until right of window reaches end of text
-	    while(windowRight < txt.length()){
+	    int cnt = mp.size();
+	    int ans = 0;
+	    int left = 0, right = 0;
+	    
+	    while(right < txt.size()){
+	        //calculations
+	        if(mp.count(txt[right])){
+	            mp[txt[right]]--;
+	            if(mp[txt[right]] == 0){
+	                cnt--;
+	            }
+	        }
 	        
-	        //count the frequency of character of text
-	        txtArr[ txt[windowRight] - 'a' ]++;
-	        
-	        //when window length is equal to K
-	        if(windowRight - windowLeft + 1 == K){
-	            
-	            //when count of characters of pattern = count of characters of text in current window
-	            if(patArr==txtArr){
+	        // windowsize == k
+	        if(right - left + 1 == k){
+	            //calculate the ans
+	            if(cnt == 0){
 	                ans++;
 	            }
 	            
-	            //slide the window by removing the character present at windowLeft of text string in txtArr
-	            txtArr[txt[windowLeft]-'a']--;
-	            windowLeft++;
-	            
+	            //slide the window
+	            if(mp.count(txt[left])){
+	                 mp[txt[left]]++;
+	                 if(mp[txt[left]] == 1){
+	                     cnt++;
+	                }
+	           }
+	           left++;
 	        }
-	        
-	       windowRight++; 
+	        right++;
 	    }
 	    return ans;
 	}
