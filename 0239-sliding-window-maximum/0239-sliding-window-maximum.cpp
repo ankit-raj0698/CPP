@@ -8,7 +8,8 @@ public:
         
         while(right < nums.size()){
             //calculations
-           
+           // say currently we are at index right so all the no smaller than s[right] 
+            // from back of list should be deleted
                 while(!l.empty() && l.back() < nums[right]){
                     l.pop_back();
                 }
