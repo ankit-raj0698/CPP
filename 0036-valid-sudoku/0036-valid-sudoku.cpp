@@ -1,15 +1,6 @@
 class Solution {
 public:
     
-    /*
-    check row wise if any number is repeated from 1-9 using set
-    check col wise if any number is repeated from 1-9 using set
-    check in a 3*3 box if any number is repeated from 1-9
-    for checking in a box create a method that will take rowStart, rowEnd, colStart, colEnd, board
-    and check if any number is repeated from 1-9 using set
-    rowStart and colStart value is incremented by 3 and rowEnd = rowStart +2, colEnd = colStart + 2
-    */
-    
     //check if box(3*3) is valid sudoku
     //Note: mistake done -> row <= rowEnd but i had done row < rowEnd
     bool traverseBox(int rowStart,int rowEnd,int colStart, int colEnd,vector<vector<char>>& board){
