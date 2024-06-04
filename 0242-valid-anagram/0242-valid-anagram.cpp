@@ -1,13 +1,5 @@
 class Solution {
 public:
-    /*
-    check the size of s and t, if size is not same return false
-    create an unordered map and find the frequency of every element of s 
-    update frequency map accordingly
-    for each element of t, decrement the frequency of every element of map 
-    in the end, check if there exists any value(map.second) in map which is not 0
-    if yes then return false
-    */
     
      bool isAnagram(string s, string t) {       
         if(s.size()!=t.size()){
@@ -27,9 +19,7 @@ public:
             if(m.second != 0){
                 return false;
             }
-        }
-        
-        return true;        
-        
+        }  
+        return true;               
     }
 };
