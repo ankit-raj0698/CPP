@@ -20,7 +20,7 @@ public:
             
             //LOGIC : when windowsize - maxFreqCount <= k then calculate result
             // otherwise update the left pointer to shrink window
-            if( (right - left + 1) - maxFreqCount > k){
+            while( (right - left + 1) - maxFreqCount > k){
                 count[s[left] - 'A']--;
                 left++;
             }
