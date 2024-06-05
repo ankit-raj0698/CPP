@@ -8,7 +8,7 @@ public:
             // area = length  * breadth
             int area = (j - i) * min(height[i],height[j]);
             maxArea = max(maxArea, area);
-            //whichever index is at smaller height, update it
+            //Always move the pointer that points to the lower line
             if(height[i] < height[j])
                 i++;
             else
