@@ -2,13 +2,13 @@ class Solution {
 public:
     
     //check if freq of every char is same in two count vectors
-    bool isSame(vector<int> s1Count,vector<int> s2Count){
-        for(int i=0; i<26;i++){
-            if(s1Count[i] != s2Count[i])
-                return false;
-        }
-        return true;
-    }
+    // bool isSame(vector<int> s1Count,vector<int> s2Count){
+    //     for(int i=0; i<26;i++){
+    //         if(s1Count[i] != s2Count[i])
+    //             return false;
+    //     }
+    //     return true;
+    // }
     
     bool checkInclusion(string s1, string s2) {
         int m = s1.size();
@@ -28,7 +28,7 @@ public:
         }
         
         //check if freq of char of s1 is same as in s2 for current window of size m
-        if(isSame(s1Count,s2Count))
+        if(s1Count == s2Count)
             return true;
         
         //check for other windows of s2
@@ -36,8 +36,9 @@ public:
             // remove the leftmost char of prev window so decrease the char count
             s2Count[s2[i-m] - 'a']--; 
             // add the current char to the window so increase the char count
-            s2Count[s2[i] - 'a']++; 
-            if(isSame(s1Count,s2Count)) // check if two vector freq matches
+            s2Count[s2[i] - 'a']++;
+            
+            if(s1Count == s2Count) // check if two vector freq matches
                 return true;
         }
         return false;
