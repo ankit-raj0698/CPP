@@ -1,15 +1,6 @@
 class Solution {
 public:
     
-    //check if freq of every char is same in two count vectors
-    // bool isSame(vector<int> s1Count,vector<int> s2Count){
-    //     for(int i=0; i<26;i++){
-    //         if(s1Count[i] != s2Count[i])
-    //             return false;
-    //     }
-    //     return true;
-    // }
-    
     bool checkInclusion(string s1, string s2) {
         int m = s1.size();
         int n = s2.size();
