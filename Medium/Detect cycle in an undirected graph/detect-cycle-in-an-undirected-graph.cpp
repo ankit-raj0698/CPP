@@ -13,14 +13,15 @@ class Solution {
         
         for(int v : adj[u]){
             
-            if(v == parent)
+            if(parent == v) 
                 continue;
                 
-            if(visited[v] == true)
+            if(visited[v] == true && parent != v)
                 return true;
             
-            if(isCycleDFS(adj,v,visited,u) == true)
+            if(!visited[v] && isCycleDFS(adj,v,visited,u) == true)
                 return true;
+            
         }
         
         return false;
