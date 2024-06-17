@@ -13,8 +13,9 @@ class Solution {
         
         for(int v : adj[u]){
                 
-            if(!visited[v] && isCycleDFS(adj,v,visited,inRecursion)){
-                return true;
+            if(!visited[v] ){
+                if(isCycleDFS(adj,v,visited,inRecursion))
+                    return true;
             }
             else if(inRecursion[v] == true)
                 return true;
