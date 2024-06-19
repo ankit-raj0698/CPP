@@ -11,6 +11,25 @@ public:
         }
     }
     
+    void bfs(vector<vector<int>>& isConnected, int curr, vector<bool> &visited,int n){
+        queue<int> q;
+        
+        q.push(curr);
+        visited[curr] = true;
+        
+        while(!q.empty()){
+            int u = q.front();
+            q.pop();
+            
+            for(int v = 0; v < n; v++){
+                if(!visited[v] && isConnected[u][v] == 1){
+                    q.push(v);
+                    visited[v] = true;
+                }
+            }
+        }
+    }
+    
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
         vector<bool> visited(n,false); 
@@ -18,7 +37,8 @@ public:
         int count = 0;
         for(int i = 0; i < n ; i++){
             if(!visited[i]){
-               dfs(isConnected, i, visited,n);
+               //dfs(isConnected, i, visited,n);
+                bfs(isConnected, i, visited,n);
                 count++;
             }
         }
