@@ -33,19 +33,23 @@ node* buildTree(node* root){
 void levelorder(node* root){
     queue<node*> q;
     q.push(root);
+    int level = 0;
     while(!q.empty()){
         int n = q.size();
-        for(int i = 0; i < n; i++){
+        while(n--){
             node* front = q.front();
             q.pop();
-            cout<< front->data<<" ";
+            if(level % 2 == 0)
+                cout<< front->data<<" ";
             
             if(front->left)
                 q.push(front->left);
             if(front->right)
                 q.push(front->right);
         }
-        cout<<endl;
+        if(level % 2 == 0)
+            cout<<endl;
+        level++;
     }
 }
 
