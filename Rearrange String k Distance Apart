@@ -1,0 +1,45 @@
+Given a non-empty string s and an integer k, rearrange the string such that the same characters are at least distance k from each other.
+
+All input strings are given in lowercase letters. If it is not possible to rearrange the string, return an empty string ""
+
+string rearrangeString(string &s, int k) {
+        // Write your code here
+
+        typedef pair<int,char> t;
+        vector<int> count(26,0);
+        for(char c: s)
+            count[c-'a']++;
+        
+        priority_queue<t> pq;
+        for(char ch = 'a'; ch <= 'z'; ch++){
+            if(count[ch-'a'] > 0)
+                pq.push({count[ch-'a'],ch});
+        }
+
+        string res = "";
+        while(pq.size() >= k){
+            int cnt =  k;
+            vector<t> temp;
+            while(cnt--){
+                temp.push_back(pq.top());
+                pq.pop();
+            }
+
+            for(auto it: temp){
+                res += it.second;
+                it.first--;
+                if(it.first > 0)
+                    pq.push({it.first,it.second});
+            }
+        }
+
+        while(!pq.empty()){
+            pair<int,char> p = pq.top();
+            pq.pop();
+            if(p.first > 1)
+                return "";
+            else
+                res += p.second;
+        }
+        return res;
+    }
