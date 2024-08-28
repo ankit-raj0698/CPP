@@ -3,33 +3,43 @@
 using namespace std;
 
 // } Driver Code Ends
-
-const int MOD = 1e9 + 7;
 class Solution{
-
+// check coder army videp
 	public:
-	int solve(int arr[], int ind, int target, vector<vector<int>>& dp) {
-    
+	const int MOD = 1e9 + 7;
 
-    if (ind <0)
-        return target == 0 ? 1 : 0;
+    int solve(int arr[], int n, int ind, int sum, vector<vector<int>>& dp) {
+        
+        // Base case: if we've considered all elements
+        // since we can have 0 so check if sum == 0 only when you have seen all the array elements
+        if (ind == n) {
+            if(sum == 0)
+                return 1;
+            return 0;
+        }
+        
+        if(ind > n || sum < 0)
+            return 0;
 
-    
-    if (dp[ind][target] != -1)
-        return dp[ind][target];
+        // Check if result is already computed
+        if (dp[ind][sum] != -1) {
+            return dp[ind][sum];
+        }
 
-    int notTaken = solve(arr, ind - 1, target, dp) % MOD;
 
-    int taken = 0;
-    if (arr[ind] <= target)
-        taken = solve(arr,ind - 1, target - arr[ind], dp)  % MOD;
+        int notTake = solve(arr, n, ind + 1, sum, dp) % MOD;
+        int take = solve(arr, n, ind + 1, sum - arr[ind], dp) % MOD;
 
-    return dp[ind][target] = (notTaken + taken)  % MOD;
+        dp[ind][sum] = (take + notTake) % MOD;
+        return dp[ind][sum];
     }
 
     int perfectSum(int arr[], int n, int sum) {
-    vector<vector<int>> dp(n, vector<int>(sum + 1, -1));
-    return solve(arr,n - 1, sum,dp);
+        // Edge case: if sum is negative, no subsets can make up the sum
+        if (sum < 0) return 0;
+
+        vector<vector<int>> dp(n, vector<int>(sum + 1, -1));
+        return solve(arr, n, 0, sum, dp);
     }
 	  
 };
