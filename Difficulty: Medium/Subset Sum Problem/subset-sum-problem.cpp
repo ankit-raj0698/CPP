@@ -10,35 +10,34 @@ using namespace std;
 class Solution{   
 public:
 
-    bool solve(vector<int>arr, int ind, int target, vector<vector<int>> &dp){
-        // base case on target & index
-        if(target == 0)
+    bool solve(vector<int>arr, int ind, int sum, vector<vector<int>> &dp){
+        
+        if(sum ==  0)
             return true;
         
-        if(ind == 0)
-            return (arr[0] == target);
+        if(ind >= arr.size() || sum < 0)
+            return false;
             
-        if(dp[ind][target] != -1 )
-            return dp[ind][target] ;
         
-        //  not_take & take recursive call
+
             
-        bool not_take = solve(arr, ind-1, target, dp);
-        bool take = false;
-        if(arr[ind] <= target)
-            take = solve(arr, ind-1, target - arr[ind] , dp);
+        if(dp[ind][sum] != -1 )
+            return dp[ind][sum] ;
+            
         
-        return dp[ind][target] =  (not_take) || (take);
         
+            
+        bool not_pick = solve(arr, ind + 1, sum, dp);
+        bool pick = solve(arr, ind + 1, sum - arr[ind], dp);
+        
+        return dp[ind][sum] = not_pick || pick;
         
     }
-    
     bool isSubsetSum(vector<int>arr, int sum){
         // code here 
         int n = arr.size();
-        vector<vector<int>> dp(n,vector<int>(sum+1,-1));
-        bool res = solve(arr, n-1, sum,dp);
-        return res;
+        vector<vector<int>> dp(n, vector<int>(sum+1,-1));
+        return solve(arr, 0, sum, dp);
     }
 };
 
