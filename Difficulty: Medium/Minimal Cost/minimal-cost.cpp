@@ -7,47 +7,63 @@ using namespace std;
 class Solution {
   public:
     
-    int solve(vector<int>& height, int index,int k, vector<int>& dp){
-        if(index == 0)
+    int solve(vector<int>& height, int ind, int n, vector<int>& dp, int k){
+        if(ind == n - 1)
             return 0;
         
-        if(dp[index] != -1)
-            return dp[index];
+        if(dp[ind] != -1)
+            return dp[ind];
             
-        int ans = INT_MAX;  
+        int minsteps = INT_MAX;
+        
         for(int j = 1; j <= k; j++){
-            // n-1, n-2 .....n-k
-            if(index - j >= 0){
-                int res = solve(height,index - j,k , dp) + abs(height[index] - height[index - j]);
-                ans = min(ans,res);
+            
+            if(ind + j < n){
+                int jump = solve(height, ind + j, n, dp, k) + abs(height[ind] - height[ind + j]);
+                minsteps = min(minsteps, jump);
             }
+            
         }
-        return dp[index] = ans;
+           
+        return dp[ind] = minsteps;
+            
     }
-  
-    int minimizeCost(vector<int>& height, int n, int k) {
+    
+    int minimizeCost(vector<int>& arr, int& k) {
+        
         // Code here
+        int n = arr.size();
         vector<int> dp(n,-1);
-        // we are passing the index in 1D DP
-        return solve(height,n-1,k,dp);
+        
+        return solve(arr, 0, n, dp, k);
     }
 };
 
 //{ Driver Code Starts.
 
 int main() {
-    int t;
-    cin >> t;
+    string ts;
+    getline(cin, ts);
+    int t = stoi(ts);
     while (t--) {
-        int N, K;
-        cin >> N >> K;
-        vector<int> arr(N);
-        for (int i = 0; i < N; i++) {
-            cin >> arr[i];
+        string ks;
+        getline(cin, ks);
+        int k = stoi(ks);
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
         }
         Solution obj;
-        cout << obj.minimizeCost(arr, N, K) << "\n";
+        int res = obj.minimizeCost(arr, k);
+        cout << res << endl;
+        // string tl;
+        // getline(cin, tl);
     }
     return 0;
 }
+
 // } Driver Code Ends
