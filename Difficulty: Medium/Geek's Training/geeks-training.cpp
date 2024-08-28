@@ -7,33 +7,42 @@ using namespace std;
 class Solution {
   public:
   
-    int solve(vector<vector<int>>& points,int day, int lastTask,
-                    vector<vector<int>> &dp){
+  
+    int solve(vector<vector<int>>& arr, int day, int lastTask,vector<vector<int>> &dp){
         // base case
         if(day == 0){
-            int maxi = 0;
+             int maxi = 0;
+            // find max points from the 3 tasks
             for(int i = 0; i < 3; i++){
+                //only select the task that is not done on prev day
                 if(i != lastTask)
-                    maxi = max(maxi,points[0][i]);
-            }
-            return  dp[day][lastTask] = maxi;
+                    maxi = max(maxi, arr[0][i]);
         }
-        if(dp[day][lastTask] != -1)
+        return dp[day][lastTask] = maxi;
+    }
+        
+        if(dp[day][lastTask] != -1){
             return dp[day][lastTask];
+        }
+        
+        
         // recurrence relation
         int maxi = 0;
+        // recursive call over all the 3 tasks
         for(int i = 0; i < 3; i++){
+            //only select the task that is not done on prev day
             if(i != lastTask){
-                int res = points[day][i] + solve(points, day - 1, i,dp);
+                int res = arr[day][i] + solve(arr, day - 1, i,dp);
                 maxi = max(maxi, res);
             }
         }
-        return dp[day][lastTask] = maxi; 
+        
+        return dp[day][lastTask] = maxi;
     }
-    int maximumPoints(vector<vector<int>>& points, int n) {
+    int maximumPoints(vector<vector<int>>& arr, int n) {
         // Code here
-        vector<vector<int>> dp(n,vector<int> (4,-1));
-        return solve(points,n-1,3,dp);
+        vector<vector<int>> dp(n,vector<int>(4,-1));
+        return solve(arr,n-1,3,dp);
     }
 };
 
@@ -44,7 +53,7 @@ int main() {
     while (t--) {
         int n;
         cin >> n;
-        vector<vector<int>> points;
+        vector<vector<int>> arr;
         for (int i = 0; i < n; ++i) {
             vector<int> temp;
             for (int j = 0; j < 3; ++j) {
@@ -52,11 +61,11 @@ int main() {
                 cin >> x;
                 temp.push_back(x);
             }
-            points.push_back(temp);
+            arr.push_back(temp);
         }
 
         Solution obj;
-        cout << obj.maximumPoints(points, n) << endl;
+        cout << obj.maximumPoints(arr, n) << endl;
     }
     return 0;
 }
