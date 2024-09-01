@@ -2,83 +2,82 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Node
-{
+struct Node {
     int data;
-    struct Node *left;
-    struct Node *right;
+    struct Node* left;
+    struct Node* right;
 };
+
 // Utility function to create a new Tree Node
-Node* newNode(int val)
-{
+Node* newNode(int val) {
     Node* temp = new Node;
     temp->data = val;
     temp->left = NULL;
     temp->right = NULL;
-    
+
     return temp;
 }
+
 // Function to Build Tree
-Node* buildTree(string str)
-{   
+Node* buildTree(string str) {
     // Corner Case
-    if(str.length() == 0 || str[0] == 'N')
-            return NULL;
-    
-    // Creating vector of strings from input 
+    if (str.length() == 0 || str[0] == 'N')
+        return NULL;
+
+    // Creating vector of strings from input
     // string after spliting by space
     vector<string> ip;
-    
+
     istringstream iss(str);
-    for(string str; iss >> str; )
+    for (string str; iss >> str;)
         ip.push_back(str);
-        
+
     // Create the root of the tree
     Node* root = newNode(stoi(ip[0]));
-        
+
     // Push the root to the queue
     queue<Node*> queue;
     queue.push(root);
-        
+
     // Starting from the second element
     int i = 1;
-    while(!queue.empty() && i < ip.size()) {
-            
+    while (!queue.empty() && i < ip.size()) {
+
         // Get and remove the front of the queue
         Node* currNode = queue.front();
         queue.pop();
-            
+
         // Get the current node's value from the string
         string currVal = ip[i];
-            
+
         // If the left child is not null
-        if(currVal != "N") {
-                
+        if (currVal != "N") {
+
             // Create the left child for the current node
             currNode->left = newNode(stoi(currVal));
-                
+
             // Push it to the queue
             queue.push(currNode->left);
         }
-            
+
         // For the right child
         i++;
-        if(i >= ip.size())
+        if (i >= ip.size())
             break;
         currVal = ip[i];
-            
+
         // If the right child is not null
-        if(currVal != "N") {
-                
+        if (currVal != "N") {
+
             // Create the right child for the current node
             currNode->right = newNode(stoi(currVal));
-                
+
             // Push it to the queue
             queue.push(currNode->right);
         }
         i++;
     }
-    
+
     return root;
 }
 
@@ -92,59 +91,53 @@ struct Node
 }; */
 
 // Should return true if tree is Sum Tree, else false
-class Solution
-{
-    public:
-    
+class Solution {
+  public:
+  
     pair<bool,int> solve(Node* root){
         
-        if(root == NULL){
-            return {true,0};
-        }
+        if(!root)
+            return {true, 0};
         
-        // handle explictly for leaf nodes 
-        // at leaf node : 
-        // left will return true,0 & right will return true,0
-        // but still isSum will return false 
-        if(root->left == NULL && root->right == NULL)
-            return {true,root->data};
+        if(!root->left && !root->right)
+            return {true, root->data};
         
         pair<bool,int> left = solve(root->left);
         pair<bool,int> right = solve(root->right);
         
-        bool isSum = root->data == (left.second + right.second);
-        
         pair<bool,int> ans;
-        ans.first = left.first && right.first && isSum;
-        ans.second = root->data + left.second + right.second;
+        ans.first = left.first && right.first 
+                        && (root->data == left.second + right.second);
+        ans.second = left.second + right.second + root->data;
         
         return ans;
+   
         
     }
-    
-    bool isSumTree(Node* root)
-    {
-         // Your code here
-         pair<bool,int> ans = solve(root);
-         return ans.first;
-            
+    bool isSumTree(Node* root) {
+        // Your code here
+        auto ans = solve(root);
+        return ans.first;
     }
 };
 
 //{ Driver Code Starts.
 
-int main()
-{
+int main() {
 
     int t;
-	scanf("%d ",&t);
-    while(t--)
-    {
+    scanf("%d ", &t);
+    while (t--) {
         string s;
-		getline(cin,s);
+
+        getline(cin, s);
+
         Node* root = buildTree(s);
         Solution ob;
-        cout <<ob.isSumTree(root) << endl;
+        if (ob.isSumTree(root))
+            cout << "true" << endl;
+        else
+            cout << "false" << endl;
     }
     return 1;
 }
