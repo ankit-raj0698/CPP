@@ -1,41 +1,45 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        
-        /*unordered_map<int,int> mp;
-        int n=nums.size();
-        int ans=-1;  
-        //store freq of every element in map
-        for(int i=0;i<nums.size();i++){
-            mp[nums[i]]++;          
-        }  
-        // Iterate through map to find majority element
-        for(auto i:mp){
-            if(i.second > (n/2)){
-                ans = i.first;
-            }          
+
+        // find the candidate
+        int candidate = nums[0];
+        int count = 1;
+        for(int i = 1; i < nums.size(); i++){
+            if(count == 0){
+                candidate = nums[i];
+                count = 1;
+            }
+            else if(nums[i] == candidate)
+                count++;
+            else 
+                count--;
         }
-       return ans;*/
 
-        //Moore voting algorithm
-       int count=0;
-       int candidate=0;
-
-       for(int i=0;i<nums.size();i++){
-           //Assume element whoever count=0 as potential answer
-           if(count==0){
-               candidate=nums[i];
-           }
-
-           //when current element is potential answer increment count
-           if(nums[i]==candidate){
-               count++;
-           }
-           // otherwise decrement count
-           else{
-               count--;
-           }
-       } 
-       return candidate;
+        // verify the candidate if it is majority element
+        count = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] == candidate)
+                count++;
+        }
+        if(count > nums.size()/2)
+            return candidate;
+        
+        return -1;
+        
     }
+
+// brute force
+    /*
+        int majorityElement(vector<int>& nums) {
+        unordered_map<int, int> count;
+
+        for(auto ele: nums){
+            count[ele]++;
+            if(count[ele] > nums.size() / 2)
+                return ele;
+        }
+        return -1;
+    }
+    */
 };
