@@ -27,6 +27,7 @@ bool canPlaceFlowers(vector<int>& flowerbed, int n) {
 
         for(int i = 0; i < size; i++){
             if(flowerbed[i] == 0){
+                //handle corner cases i.e i = 0 and i = size -1
                 bool leftEmpty = (i == 0) || (flowerbed[i-1] == 0);
                 bool rightEmpty = (i == size - 1) || (flowerbed[i + 1] == 0);
 
