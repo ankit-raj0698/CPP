@@ -1,7 +1,8 @@
 class Solution {
 public:
 
-// using extra array to store prefix sum
+    // using extra array to store prefix sum
+    
     /*
     int pivotIndex(vector<int>& nums) {
         int n = nums.size();
@@ -24,6 +25,7 @@ public:
     }
     */
 
+    // without using extra prefix sum array
     int pivotIndex(vector<int>& nums) {
         int totalSum = accumulate(nums.begin(), nums.end(), 0);
         int leftSum, rightSum, prefixSum = 0;
