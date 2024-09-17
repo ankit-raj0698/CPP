@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/ankit-raj0698/CPP/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/ankit-raj0698/CPP/tree/master/0027-remove-element) |
+| [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ankit-raj0698/CPP/tree/master/0001-two-sum) |
+| [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
@@ -179,4 +181,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
