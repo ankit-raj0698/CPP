@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/ankit-raj0698/CPP/tree/master/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
@@ -227,4 +229,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
