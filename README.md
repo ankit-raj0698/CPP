@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## String
 |  |
 | ------- |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/ankit-raj0698/CPP/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Queue
 |  |
 | ------- |
