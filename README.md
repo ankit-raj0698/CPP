@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ankit-raj0698/CPP/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2058-concatenation-of-array](https://github.com/ankit-raj0698/CPP/tree/master/2058-concatenation-of-array) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
 ## Hash Table
 |  |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1746-largest-substring-between-two-equal-characters](https://github.com/ankit-raj0698/CPP/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 ## Sorting
 |  |
 | ------- |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -153,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 ## Linked List
 |  |
 | ------- |
@@ -210,4 +214,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
+## Number Theory
+|  |
+| ------- |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 <!---LeetCode Topics End-->
