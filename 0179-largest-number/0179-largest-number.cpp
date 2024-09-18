@@ -1,26 +1,28 @@
 class Solution {
 public:
+
+    // custom comparator to compare which combination of string is greater
     struct compare{
-        bool operator()(string a, string b){
-            string first = a + b;
-            string second = b + a;
-            return first > second;
+        bool operator()(int &a, int &b){
+            string s1 = to_string(a);
+            string s2 = to_string(b);
+
+            return s1 + s2 > s2 + s1;
         }
+
     };
-
     string largestNumber(vector<int>& nums) {
-        vector<string> strNums;
-        for(int ele : nums)
-            strNums.push_back(to_string(ele));
 
-        sort(strNums.begin(), strNums.end(), compare());
+        string res = "";
+        sort(nums.begin(), nums.end(), compare());
 
-        if (strNums[0] == "0") return "0";
+        if(nums[0] == 0)
+            return "0";
 
-        string ans = "";
-        for(string ele : strNums)
-            ans += ele;
+        for(int ele: nums){
+            res += to_string(ele);
+        }
         
-        return ans;
+        return res;
     }
 };
