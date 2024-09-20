@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/ankit-raj0698/CPP/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ankit-raj0698/CPP/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
+| [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [1894-merge-strings-alternately](https://github.com/ankit-raj0698/CPP/tree/master/1894-merge-strings-alternately) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ankit-raj0698/CPP/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
+| [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -225,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
