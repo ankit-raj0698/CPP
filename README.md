@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/ankit-raj0698/CPP/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/ankit-raj0698/CPP/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [1894-merge-strings-alternately](https://github.com/ankit-raj0698/CPP/tree/master/1894-merge-strings-alternately) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 ## Greedy
 |  |
 | ------- |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
@@ -316,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/ankit-raj0698/CPP/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ankit-raj0698/CPP/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## String Matching
 |  |
