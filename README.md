@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
+| [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ankit-raj0698/CPP/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
+| [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ankit-raj0698/CPP/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
+| [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1894-merge-strings-alternately](https://github.com/ankit-raj0698/CPP/tree/master/1894-merge-strings-alternately) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
@@ -191,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
+| [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
