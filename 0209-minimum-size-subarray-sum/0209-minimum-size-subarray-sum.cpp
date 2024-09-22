@@ -5,6 +5,7 @@ public:
         while(right < nums.size()){
             sum += nums[right];
 
+            // as soon as we got a valid window, we want to minimize it
             while(left <= right && sum >= target){
                 ans = min(ans, right - left + 1);
                 sum -= nums[left++];
