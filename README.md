@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Array
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/ankit-raj0698/CPP/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ankit-raj0698/CPP/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/ankit-raj0698/CPP/tree/master/1746-largest-substring-between-two-equal-characters) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
@@ -236,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0724-find-pivot-index](https://github.com/ankit-raj0698/CPP/tree/master/0724-find-pivot-index) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
 ## Math
@@ -323,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/ankit-raj0698/CPP/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ankit-raj0698/CPP/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## String Matching
