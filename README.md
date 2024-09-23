@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 | [0563-binary-tree-tilt](https://github.com/ankit-raj0698/CPP/tree/master/0563-binary-tree-tilt) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0226-invert-binary-tree) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 ## Binary Search Tree
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
+| [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/ankit-raj0698/CPP/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ankit-raj0698/CPP/tree/master/0219-contains-duplicate-ii) |
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
+| [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
@@ -330,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 ## Number Theory
 |  |
 | ------- |
