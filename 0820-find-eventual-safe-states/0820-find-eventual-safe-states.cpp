@@ -1,45 +1,45 @@
 class Solution {
 public:
-    
-    // to detect nodes that are part of cycle  , check inRecursion vector
-    // cycle nodes will have inRecursion[i] value = true
-    
-    bool dfsCycleDirected(vector<vector<int>>& graph, int u, vector<bool> &visited, vector<bool> &inRecursion){
-        
-        visited[u] = true;
-        inRecursion[u] = true;
-        
-        for(int v : graph[u]){
+    // when you closely look the example you will realise that all the states which are part of cycle are not safe
+    bool dfsCycle(vector<vector<int>>& graph, int u, vector<int> &visited, vector<int> &inRecursion){
+        visited[u] = 1;
+        inRecursion[u] = 1;
+
+        for(int v: graph[u]){
             if(!visited[v]){
-                if(dfsCycleDirected(graph, v, visited, inRecursion))
+                if(dfsCycle(graph, v, visited, inRecursion))
                     return true;
             }
-            else if(inRecursion[v] == true)
+            else if(inRecursion[v])
                 return true;
         }
-        inRecursion[u] = false;
+
+
+        inRecursion[u] = 0;
         return false;
+
     }
-    
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
+
         int n = graph.size();
-        vector<bool> visited(n,false);
-        vector<bool> inRecursion(n,false);
-        
+        vector<int> visited(n,0);
+        vector<int> inRecursion(n,0);
+
         for(int i = 0; i < n; i++){
-            
             if(!visited[i]){
-                dfsCycleDirected(graph, i, visited, inRecursion);
-            } 
+                dfsCycle(graph, i, visited, inRecursion);
+            }
         }
-        
-        // inRecursion vector whose value is false are not part of cycle and hence safe
+
+        // states which are not part of cycle are safe states
+        // if inRecursion of a node is false it means it is not part of cycle
         vector<int> safeState; 
         for(int i = 0; i < n; i++){
-            if(inRecursion[i] == false)
+            if(inRecursion[i] == 0)
                 safeState.push_back(i);
         }
         
         return safeState;
+        
     }
 };
