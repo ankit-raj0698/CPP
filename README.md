@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
+| [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 ## Binary Search Tree
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/ankit-raj0698/CPP/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/ankit-raj0698/CPP/tree/master/0724-find-pivot-index) |
+| [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
+| [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
@@ -205,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ankit-raj0698/CPP/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
+| [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
