@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/ankit-raj0698/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0226-invert-binary-tree) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 | [0563-binary-tree-tilt](https://github.com/ankit-raj0698/CPP/tree/master/0563-binary-tree-tilt) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/ankit-raj0698/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0226-invert-binary-tree) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ankit-raj0698/CPP/tree/master/0238-product-of-array-except-self) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -217,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
 | [0344-reverse-string](https://github.com/ankit-raj0698/CPP/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
@@ -371,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
@@ -407,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/ankit-raj0698/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -417,4 +423,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/ankit-raj0698/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
