@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/ankit-raj0698/CPP/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Binary Tree
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 ## Binary Search Tree
 |  |
@@ -57,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## Array
 |  |
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/ankit-raj0698/CPP/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
@@ -340,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
@@ -370,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
 ## Union Find
@@ -380,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
+| [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 ## Number Theory
 |  |
