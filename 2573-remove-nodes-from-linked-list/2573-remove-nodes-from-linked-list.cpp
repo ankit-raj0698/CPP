@@ -10,7 +10,9 @@
  */
 class Solution {
 public:
-
+    // reverse the linked list
+    // if next node is smaller than max, then modify the links
+    // otherwise update the max and move the current pointer
     ListNode* reverseList(ListNode* head) {
         
         if(!head || !head->next)
@@ -37,6 +39,7 @@ public:
                 curr->next = front->next;
             }
             else{
+                // update the maxi, if front doesn't exist then retain the maxi value
                 maxi = max(maxi, front ? front->val : maxi);
                 curr = curr->next;
             }
