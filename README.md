@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/ankit-raj0698/CPP/tree/master/1894-merge-strings-alternately) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ankit-raj0698/CPP/tree/master/2271-rearrange-array-elements-by-sign) |
 ## String
 |  |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
 | [0908-middle-of-the-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0908-middle-of-the-linked-list) |
 | [1765-merge-in-between-linked-lists](https://github.com/ankit-raj0698/CPP/tree/master/1765-merge-in-between-linked-lists) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Design
 |  |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Queue
 |  |
