@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ankit-raj0698/CPP/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/ankit-raj0698/CPP/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
+| [1392-find-the-difference-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/ankit-raj0698/CPP/tree/master/1746-largest-substring-between-two-equal-characters) |
