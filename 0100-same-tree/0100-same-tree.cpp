@@ -12,22 +12,18 @@
 class Solution {
 public:
     
-    bool solve(TreeNode* p, TreeNode* q){
-        if(p == nullptr && q == nullptr)
-            return true;
-        if(p == nullptr && q)
-            return false;
-        if(p && q == nullptr)
-            return false;
-        
-        bool left = solve(p->left,q->left);
-        bool right = solve(p->right, q->right);
-        bool data = p->val == q->val;
-        
-        return left && right && data;
-    }
-    
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return solve(p,q);
+        if(!p && !q)
+            return true;
+        if(!p && q)
+            return false;
+        if(p && !q)
+            return false;
+        
+        bool leftSubtree = isSameTree(p->left, q->left);
+        bool rightSubtree = isSameTree(p->right, q->right);
+        bool checkVal = p->val == q->val;
+
+        return leftSubtree && rightSubtree && checkVal;
     }
 };
