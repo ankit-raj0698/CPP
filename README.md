@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/ankit-raj0698/CPP/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/ankit-raj0698/CPP/tree/master/0088-merge-sorted-array) |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
