@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/ankit-raj0698/CPP/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/ankit-raj0698/CPP/tree/master/0088-merge-sorted-array) |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
