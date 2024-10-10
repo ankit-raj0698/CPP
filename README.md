@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ankit-raj0698/CPP/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/ankit-raj0698/CPP/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ankit-raj0698/CPP/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ankit-raj0698/CPP/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/ankit-raj0698/CPP/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 ## Simulation
 |  |
 | ------- |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
+| [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 ## Divide and Conquer
 |  |
 | ------- |
