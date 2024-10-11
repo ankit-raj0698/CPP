@@ -4,20 +4,25 @@ public:
     unordered_map<int, int> freq;
     // pq -> {freq, {pos, ele}}
     priority_queue<pair<int, pair<int, int>>> pq;
-    int pos = 0;
+    int ind = 0;
     FreqStack() {
         
     }
     
     void push(int val) {
+        // find the freq of the element
         freq[val]++;
-        pq.push({freq[val], {pos, val}});
-        pos++;
+        // push {freq, {index, val}} into pq
+        pq.push({freq[val], {ind, val}});
+        // increment the index so that next element will be stored there
+        ind++;
     }
     
     int pop() {
+        // find the top of pq and pop
         auto top = pq.top();
         pq.pop();
+        // find the top of stack val and update the freq of the element
         int val = top.second.second;
         freq[val]--;
         return val;
