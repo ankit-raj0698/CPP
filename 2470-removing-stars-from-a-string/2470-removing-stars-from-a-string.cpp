@@ -1,6 +1,18 @@
 class Solution {
 public:
-    string removeStars(string s) {
+    string solveUsingTwoPointer(string s){
+        int i = 0, j = 0;
+        for(; i < s.length(); i++){
+            if(s[i] == '*')
+                j--;
+            else
+                s[j++] = s[i];
+        }
+
+        return s.substr(0,j);
+    }
+
+    string solveUsingStack(string s){
         stack<char> st;
         string ans = "";
 
@@ -16,5 +28,10 @@ public:
         }
         reverse(ans.begin(), ans.end());
         return ans;
+    }
+    string removeStars(string s) {
+        // return solveUsingStack(s);
+        return solveUsingTwoPointer(s);
+
     }
 };
