@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
+| [0983-validate-stack-sequences](https://github.com/ankit-raj0698/CPP/tree/master/0983-validate-stack-sequences) |
 | [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0682-baseball-game](https://github.com/ankit-raj0698/CPP/tree/master/0682-baseball-game) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
+| [0983-validate-stack-sequences](https://github.com/ankit-raj0698/CPP/tree/master/0983-validate-stack-sequences) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2058-concatenation-of-array](https://github.com/ankit-raj0698/CPP/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
@@ -487,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0234-palindrome-linked-list) |
 | [0682-baseball-game](https://github.com/ankit-raj0698/CPP/tree/master/0682-baseball-game) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
+| [0983-validate-stack-sequences](https://github.com/ankit-raj0698/CPP/tree/master/0983-validate-stack-sequences) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1666-make-the-string-great](https://github.com/ankit-raj0698/CPP/tree/master/1666-make-the-string-great) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
