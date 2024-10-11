@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2058-concatenation-of-array](https://github.com/ankit-raj0698/CPP/tree/master/2058-concatenation-of-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ankit-raj0698/CPP/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2470-removing-stars-from-a-string](https://github.com/ankit-raj0698/CPP/tree/master/2470-removing-stars-from-a-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
+| [2470-removing-stars-from-a-string](https://github.com/ankit-raj0698/CPP/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
 ## Dynamic Programming
 |  |
@@ -491,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2470-removing-stars-from-a-string](https://github.com/ankit-raj0698/CPP/tree/master/2470-removing-stars-from-a-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Queue
 |  |
