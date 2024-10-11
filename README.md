@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/ankit-raj0698/CPP/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ankit-raj0698/CPP/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/ankit-raj0698/CPP/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0234-palindrome-linked-list) |
