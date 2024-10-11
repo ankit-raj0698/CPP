@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ankit-raj0698/CPP/tree/master/0208-implement-trie-prefix-tree) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/ankit-raj0698/CPP/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0145-binary-tree-postorder-traversal) |
