@@ -343,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
+| [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ankit-raj0698/CPP/tree/master/0208-implement-trie-prefix-tree) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
+| [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -629,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/ankit-raj0698/CPP/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/ankit-raj0698/CPP/tree/master/0077-combinations) |
+| [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Recursion
