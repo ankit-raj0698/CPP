@@ -628,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/ankit-raj0698/CPP/tree/master/0046-permutations) |
+| [0077-combinations](https://github.com/ankit-raj0698/CPP/tree/master/0077-combinations) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Recursion
