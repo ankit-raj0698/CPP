@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ankit-raj0698/CPP/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ankit-raj0698/CPP/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3244-minimize-length-of-array-using-operations](https://github.com/ankit-raj0698/CPP/tree/master/3244-minimize-length-of-array-using-operations) |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ankit-raj0698/CPP/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ankit-raj0698/CPP/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Simulation
 |  |
 | ------- |
@@ -691,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ankit-raj0698/CPP/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Quickselect
 |  |
 | ------- |
