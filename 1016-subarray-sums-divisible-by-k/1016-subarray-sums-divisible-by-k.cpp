@@ -1,33 +1,41 @@
-class Solution {
-public:
-    int subarraysDivByK(vector<int>& nums, int k) {
-        int n = nums.size(); 
-        int sum = 0, ans = 0;
-        
-        // {rem -> count}
-        unordered_map<int, int> mp; 
-        mp[0] = 1;
-        
-        for(int i = 0; i < n; i++){
-            
-            // calculate the prefix sum
-            sum += nums[i];
-            
-            // find the remainder
-            // int rem = sum % k;
-            // if(rem < 0)
-            //     rem = rem + k;
-            
-            int rem = (sum % k + k) % k;
-            
-            // when rem is present in map , update ans
-            if(mp.find(rem) != mp.end())
-                ans += mp[rem];
-            
-            // otherwise update the count of rem in map
-            mp[rem]++;
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+bool dfs(unordered_map<int, vector<int>> &adj, vector<int> &color, int currNode, int currColor){
+    color[currNode] = currColor;
+    for(auto v: adj[currNode]){
+        if(color[v] == -1){
+            if(!dfs(adj, color, v, 1 - currColor))
+                return false;
         }
-        
-        return ans;
+        else if(color[v] == currColor)
+            return false;
     }
-};
+    return true;
+}
+
+int main() {
+   int n, m;
+   cout << "enter n and m" << endl;
+   cin >> n >> m;
+   unordered_map<int, vector<int>> adj;
+   int x, y;
+   for(int i = 0; i < m; i++){
+       cout << "enter x & y ";
+       cin >> x >> y;
+       adj[x].push_back(y);
+       adj[y].push_back(x);
+       cout << endl;
+   }
+   
+   vector<int> color(n+1, -1);
+   for(int i = 1; i <= n; i++){
+       if(color[i] == -1){
+           if(!dfs(adj, color, i, 0))
+                cout << "No" << endl;
+       }
+   }
+   
+   cout << "Yes" << endl;
+   
+}
