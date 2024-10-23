@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0983-validate-stack-sequences](https://github.com/ankit-raj0698/CPP/tree/master/0983-validate-stack-sequences) |
 | [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -454,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/ankit-raj0698/CPP/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/ankit-raj0698/CPP/tree/master/0724-find-pivot-index) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
