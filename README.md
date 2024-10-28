@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/ankit-raj0698/CPP/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/ankit-raj0698/CPP/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ankit-raj0698/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
 | [0091-decode-ways](https://github.com/ankit-raj0698/CPP/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/ankit-raj0698/CPP/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ankit-raj0698/CPP/tree/master/0208-implement-trie-prefix-tree) |
@@ -412,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -691,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/ankit-raj0698/CPP/tree/master/0208-implement-trie-prefix-tree) |
 ## Monotonic Queue
 |  |
@@ -713,4 +718,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
