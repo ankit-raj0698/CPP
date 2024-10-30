@@ -12,22 +12,26 @@ class Solution {
     // railway station such that no train waits.
     int findPlatform(vector<int>& arr, vector<int>& dep) {
         // Your code here
-        map<int,int> mp;
+        sort(arr.begin(), arr.end());
+        sort(dep.begin(), dep.end());
+        
+        map<int, int> mp;
         for(int i = 0; i < arr.size(); i++){
             int start = arr[i];
             int end = dep[i];
             
             mp[start]++;
-            mp[end+1]--;
-        }
-        int sum = 0;
-        int maxSum = 0;
-        for(auto it: mp){
-            sum += it.second;
-            maxSum = max(maxSum, sum);
+            mp[end + 1]--;
         }
         
-        return maxSum;
+        int sum = 0;
+        int maxi = 0;
+        for(auto it: mp){
+            sum += it.second;
+            maxi = max(maxi, sum);
+        }
+        
+        return maxi;
     }
 };
 
@@ -49,6 +53,9 @@ int main() {
         }
         Solution ob;
         cout << ob.findPlatform(arr, dep) << endl;
+
+        cout << "~"
+             << "\n";
     }
     return 0;
 }
