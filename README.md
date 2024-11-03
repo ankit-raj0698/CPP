@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/ankit-raj0698/CPP/tree/master/0652-find-duplicate-subtrees) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/1021-distribute-coins-in-binary-tree) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/ankit-raj0698/CPP/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
+| [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [1127-last-stone-weight](https://github.com/ankit-raj0698/CPP/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
@@ -660,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -674,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
+| [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 ## Backtracking
 |  |
 | ------- |
