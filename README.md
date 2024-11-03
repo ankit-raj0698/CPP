@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ankit-raj0698/CPP/tree/master/0084-largest-rectangle-in-histogram) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/ankit-raj0698/CPP/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/ankit-raj0698/CPP/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
+| [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
