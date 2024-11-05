@@ -9,32 +9,27 @@ using namespace std;
 
 class Solution {
   public:
+  int n;
+    bool solve(vector<int>& arr, int ind, int sum, vector<vector<int>> &dp){
+        if(ind < 0){
+            return sum == 0;
+        }
+        
+        if(dp[ind][sum] != -1)
+            return dp[ind][sum];
+        
+        bool not_take = solve(arr, ind - 1, sum, dp);
+        bool take = false;
+        if(arr[ind] <= sum)
+            take = solve(arr, ind - 1, sum - arr[ind], dp);
+        
+        return dp[ind][sum] = not_take || take;
+    }
     bool isSubsetSum(vector<int>& arr, int sum) {
         // code here
-        int n = arr.size();
-        vector<vector<bool>> dp(n + 1, vector<bool>(sum + 1));
-        
-        for(int i = 0; i <= n; i++)
-            dp[i][0] = true;
-        
-        for(int j = 1; j <= sum; j++)
-            dp[0][j] = false;
-        
-        for(int i = 1; i <= n; i++){
-            for(int j = 1; j <= sum; j++){
-                
-                // always fill dp table based on immediate above row
-                // exclude : here j is sum
-                if(arr[i-1] > j)
-                    dp[i][j] = dp[i-1][j];
-                
-                // include : here j is sum
-                if(arr[i-1] <= j)
-                    dp[i][j] = dp[i-1][j] || dp[i-1][j - arr[i-1]];
-                    
-            }
-        }
-        return dp[n][sum];
+        n = arr.size();
+        vector<vector<int>> dp(n, vector<int>(sum + 1, -1));
+        return solve(arr, n-1, sum, dp);
     }
 };
 
