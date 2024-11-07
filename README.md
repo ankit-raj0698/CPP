@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ankit-raj0698/CPP/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1403-palindrome-partitioning-iii](https://github.com/ankit-raj0698/CPP/tree/master/1403-palindrome-partitioning-iii) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/ankit-raj0698/CPP/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1666-make-the-string-great](https://github.com/ankit-raj0698/CPP/tree/master/1666-make-the-string-great) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/ankit-raj0698/CPP/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
+| [1403-palindrome-partitioning-iii](https://github.com/ankit-raj0698/CPP/tree/master/1403-palindrome-partitioning-iii) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1743-count-substrings-that-differ-by-one-character](https://github.com/ankit-raj0698/CPP/tree/master/1743-count-substrings-that-differ-by-one-character) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
