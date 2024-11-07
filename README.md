@@ -440,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/ankit-raj0698/CPP/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 | [1403-palindrome-partitioning-iii](https://github.com/ankit-raj0698/CPP/tree/master/1403-palindrome-partitioning-iii) |
+| [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ankit-raj0698/CPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1743-count-substrings-that-differ-by-one-character](https://github.com/ankit-raj0698/CPP/tree/master/1743-count-substrings-that-differ-by-one-character) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
@@ -492,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/ankit-raj0698/CPP/tree/master/0724-find-pivot-index) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
+| [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ankit-raj0698/CPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/ankit-raj0698/CPP/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
