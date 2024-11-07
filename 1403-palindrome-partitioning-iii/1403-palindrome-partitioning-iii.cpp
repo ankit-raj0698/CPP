@@ -16,12 +16,19 @@ public:
     }
 
     int solve(string &s, int ind, int k){
+
+        // when k finished but string isn't finished so this is invalid state
+        // because we have to divide string in exactly k partition
         if(k == 0 && ind != -1)
             return 1e9;
+        
+        // when we have seen all char of string
         if(ind == -1){
+            // exactly k partition
             if(k == 0)
                 return 0;
             else
+                // not k partition so invalid state
                 return 1e9;
         }
 
@@ -29,6 +36,8 @@ public:
             return dp1[ind][k];
 
         int ans = 1e9;
+        
+        // explore by partition at each index 
         for(int x = ind; x >= 0; x--){
             ans = min(ans, solve(s, x-1, k-1) + cost(x, ind, s));
         }
