@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ankit-raj0698/CPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/2416-evaluate-boolean-binary-tree) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ankit-raj0698/CPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-search-in-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/1021-distribute-coins-in-binary-tree) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/2416-evaluate-boolean-binary-tree) |
 ## Breadth-First Search
@@ -120,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -278,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/ankit-raj0698/CPP/tree/master/0652-find-duplicate-subtrees) |
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0931-maximum-frequency-stack](https://github.com/ankit-raj0698/CPP/tree/master/0931-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0965-unique-email-addresses](https://github.com/ankit-raj0698/CPP/tree/master/0965-unique-email-addresses) |
