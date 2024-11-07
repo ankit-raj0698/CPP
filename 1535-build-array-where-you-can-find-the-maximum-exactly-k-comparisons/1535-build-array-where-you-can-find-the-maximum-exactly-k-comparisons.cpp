@@ -4,8 +4,8 @@ public:
     int dp[51][101][52];
     int solve(int n, int ind, int m, int lastMax, int k, int searchCost){
 
-        if(searchCost > k)
-            return 0;
+        // if(searchCost > k)
+        //     return 0;
 
         if(ind == n){
              if(searchCost == k)
