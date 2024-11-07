@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/ankit-raj0698/CPP/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/ankit-raj0698/CPP/tree/master/0713-subarray-product-less-than-k) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/ankit-raj0698/CPP/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ankit-raj0698/CPP/tree/master/0416-partition-equal-subset-sum) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/ankit-raj0698/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -757,4 +759,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
