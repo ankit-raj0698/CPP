@@ -432,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0300-longest-increasing-subsequence) |
+| [0338-counting-bits](https://github.com/ankit-raj0698/CPP/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ankit-raj0698/CPP/tree/master/0416-partition-equal-subset-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -547,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0338-counting-bits](https://github.com/ankit-raj0698/CPP/tree/master/0338-counting-bits) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
