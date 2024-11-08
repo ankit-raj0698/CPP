@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/ankit-raj0698/CPP/tree/master/2195-time-needed-to-buy-tickets) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/ankit-raj0698/CPP/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ankit-raj0698/CPP/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2479-meeting-rooms-iii](https://github.com/ankit-raj0698/CPP/tree/master/2479-meeting-rooms-iii) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/ankit-raj0698/CPP/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/ankit-raj0698/CPP/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2479-meeting-rooms-iii](https://github.com/ankit-raj0698/CPP/tree/master/2479-meeting-rooms-iii) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ankit-raj0698/CPP/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -328,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/ankit-raj0698/CPP/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/ankit-raj0698/CPP/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2479-meeting-rooms-iii](https://github.com/ankit-raj0698/CPP/tree/master/2479-meeting-rooms-iii) |
 | [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 | [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ankit-raj0698/CPP/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -607,6 +610,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/ankit-raj0698/CPP/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/ankit-raj0698/CPP/tree/master/1762-furthest-building-you-can-reach) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/ankit-raj0698/CPP/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2479-meeting-rooms-iii](https://github.com/ankit-raj0698/CPP/tree/master/2479-meeting-rooms-iii) |
 ## Merge Sort
 |  |
