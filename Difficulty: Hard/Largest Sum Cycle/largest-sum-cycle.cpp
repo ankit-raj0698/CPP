@@ -9,39 +9,42 @@ class Solution
 {
   public:
   int ans;
-  void cycle(vector<int> &Edge, int u, vector<int> &visited, vector<int> &inrecursion, vector<int> &path){
-      visited[u] = 1;
-      inrecursion[u] = 1;
-      path.push_back(u);
-      int v = Edge[u];
-      if(v != -1){
-          if(!visited[v]){
-              cycle(Edge, v, visited, inrecursion, path);
-          }
-          else if(inrecursion[v] == 1){
-              int sum = 0;
-              for(int i = path.size() - 1; i >= 0; i--){
-                  sum += path[i];
-                  ans = max(ans, sum);
-                  
-                  if(path[i] == v)
+  void dfsCycle(vector<int> &Edge, int u, vector<int> &visited, vector<int> &inRecursion, vector<int> &path){
+     
+     visited[u] = 1;
+     inRecursion[u] = 1;
+     
+     path.push_back(u);
+     
+     int v = Edge[u];
+     if(v != -1){
+         if(!visited[v]){
+             dfsCycle(Edge, v, visited, inRecursion, path);
+         }
+         else if(inRecursion[v]){
+             int sum = 0;
+            for(int i = path.size() - 1; i >= 0; i--){
+                sum += path[i];
+                ans = max(ans, sum);
+                
+                if(path[i] == v)
                     break;
-              }
-          }
-      }
-      
-      inrecursion[u] = 0;
+            } 
+         }
+     }
+     
+     inRecursion[u] = 0;
   }
   long long largestSumCycle(int N, vector<int> Edge)
   {
     // code here
     vector<int> visited(N, 0);
-    vector<int> inrecursion(N, 0);
+    vector<int> inRecursion(N, 0);
     ans = -1;
     for(int i = 0; i < N; i++){
         if(!visited[i]){
             vector<int> path;
-            cycle(Edge, i, visited, inrecursion, path);
+            dfsCycle(Edge, i, visited, inRecursion, path);
         }
     }
     return ans;
