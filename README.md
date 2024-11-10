@@ -255,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ankit-raj0698/CPP/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3244-minimize-length-of-array-using-operations](https://github.com/ankit-raj0698/CPP/tree/master/3244-minimize-length-of-array-using-operations) |
 | [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ankit-raj0698/CPP/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/ankit-raj0698/CPP/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/ankit-raj0698/CPP/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
 | [3394-minimum-array-end](https://github.com/ankit-raj0698/CPP/tree/master/3394-minimum-array-end) |
 ## Stack
 |  |
@@ -682,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/ankit-raj0698/CPP/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ankit-raj0698/CPP/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3381-shortest-subarray-with-or-at-least-k-i](https://github.com/ankit-raj0698/CPP/tree/master/3381-shortest-subarray-with-or-at-least-k-i) |
 ## String Matching
 |  |
 | ------- |
