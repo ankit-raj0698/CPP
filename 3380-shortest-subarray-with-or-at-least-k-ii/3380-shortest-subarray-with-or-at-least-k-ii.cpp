@@ -4,6 +4,7 @@ public:
         for(int i = 0; i < 32; i++){
             // check if ith bit of num is 1
             if(num & (1 << i))
+            // if the ith bit is 1, then update the count in bit vector
                 bitcount[i] += diff;
         }
     }
@@ -13,6 +14,9 @@ public:
         for(int i = 0; i < 32; i++){
             // if current bit is set, then create the decimal no
             if(bitcount[i])
+             // say bitcount array has 2,0,1,4
+             // then decimal no would be 13 : 1 * 2^0 + 0 + 1 * 2^2 + 1 * 2^3
+             // we just need if bit is set or not , not interested in count of ith bit
                 res += (1 << i);
         }
         return res;
