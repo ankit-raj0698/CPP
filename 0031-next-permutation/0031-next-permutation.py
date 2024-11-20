@@ -12,18 +12,14 @@ class Solution:
                 break
             i -= 1
         
-        # when we didn't find any valid index it means next permutation is sorted version
-        if index == -1:
-            return nums.sort()
 
-        if index >= 0:
+        if index != -1:
             j = len(nums) - 1
             # find the index of element which is greater than nums[index]
             while nums[j] <= nums[index]:
                 j -= 1
             # swap nums[j] and nums[index]
             nums[j], nums[index] = nums[index], nums[j]
-            # reverse the part after index + 1
-            nums[index+1:] = reversed(nums[index+1:])
-        
-        return nums
+            
+        # reverse the part after index + 1
+        nums[index+1:] = reversed(nums[index+1:])
