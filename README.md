@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0209-minimum-size-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0209-minimum-size-subarray-sum) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ankit-raj0698/CPP/tree/master/0084-largest-rectangle-in-histogram) |
@@ -647,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/ankit-raj0698/CPP/tree/master/0036-valid-sudoku) |
 | [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
