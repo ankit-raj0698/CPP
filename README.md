@@ -805,4 +805,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/ankit-raj0698/CPP/tree/master/0176-second-highest-salary) |
+| [0184-department-highest-salary](https://github.com/ankit-raj0698/CPP/tree/master/0184-department-highest-salary) |
 <!---LeetCode Topics End-->
