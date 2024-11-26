@@ -25,28 +25,30 @@ public:
     }
 
     void merge(vector<int> &nums, int start, int mid, int end){
-        vector<int> temp(end - start + 1);
-        int left = start, right = mid + 1;
-        int ind = 0;
-        while(left <= mid && right <= end){
-            if(nums[left] <= nums[right]){
-                temp[ind++] = nums[left++];
-            }
+        int n = mid - start + 1;
+        int m = end - mid;
+
+        vector<int> left(n);
+        vector<int> right(m);
+
+        for(int i = 0; i < n; i++)
+            left[i] = nums[start + i];
+
+        for(int i = 0; i < m; i++)
+            right[i] = nums[mid + 1 + i];
+
+        int i = 0, j = 0, k = start;
+        while(i < n && j < m){
+            if(left[i] <= right[j])
+                nums[k++] = left[i++];
             else
-                temp[ind++] = nums[right++];
+                nums[k++] = right[j++];
         }
 
-        while(left <= mid){
-            temp[ind++] = nums[left++];
-        }
-
-        while(right <= end)
-            temp[ind++] = nums[right++];
-
-        ind = 0;
-        while(start <= end){
-            nums[start++] = temp[ind++];
-        }
+        while(i < n)
+            nums[k++] = left[i++];
+        while(j < m)
+            nums[k++] = right[j++];
     }
 
 
