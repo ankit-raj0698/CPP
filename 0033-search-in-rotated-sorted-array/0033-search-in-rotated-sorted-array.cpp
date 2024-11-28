@@ -37,16 +37,17 @@ public:
 
     int search(vector<int>& nums, int target) {
        int pivotIndex =  getPivot(nums);
-    
-        cout << "pivot index = " << pivotIndex << endl;
+
+
+        // handle case when array is not rotated
         if(pivotIndex == 0)
             return binarySearch(nums, target, 0, nums.size() - 1);
-            
+
+        // if pivot element is the target
        if(nums[pivotIndex] == target)
             return pivotIndex;
         
-        
-        
+        // if target < first then search in the second half
         if(target < nums[0])
             return binarySearch(nums, target, pivotIndex + 1, nums.size() - 1);
         else 
