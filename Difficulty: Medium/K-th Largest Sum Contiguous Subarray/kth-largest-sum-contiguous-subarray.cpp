@@ -18,18 +18,22 @@ class Solution {
             int sum = 0;
             for (int j = i; j < n; j++) {
                 sum += arr[j];
-                if(pq.size() < k)
-                    pq.push(sum);
-                else if(pq.top() < sum){
+                pq.push(sum);
+                if(pq.size() > k)
                     pq.pop();
-                    pq.push(sum);
-                }
+                // if(pq.size() < k)
+                //     pq.push(sum);
+                // else if(pq.top() < sum){
+                //     pq.pop();
+                //     pq.push(sum);
+                // }
             }
         }
     
         return pq.top();
     }
 };
+
 
 //{ Driver Code Starts.
 
@@ -52,7 +56,7 @@ int main() {
         Solution obj;
         int res = obj.kthLargest(arr, k);
         cout << res << endl;
-        // cout << "~" << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
