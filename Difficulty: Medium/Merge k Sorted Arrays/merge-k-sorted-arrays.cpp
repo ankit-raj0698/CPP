@@ -14,54 +14,35 @@ for (int i=0; i < size; i++)
 // } Driver Code Ends
 //User function Template for C++
 
-class node{
-    public:
-    
-    int data;
-    int row;
-    int col;
-    
-    node(int data, int row, int col){
-        this->data = data;
-        this->row = row;
-        this->col = col;
-    }
-};
 
 class Solution
 {
     public:
     //Function to merge k sorted arrays.
-    struct compare{
-        bool operator()(node* a, node* b){
-            return a->data > b->data;
-        }
-    };
-    
     vector<int> mergeKArrays(vector<vector<int>> arr, int K)
     {
         //code here
+        typedef pair<int, pair<int,int>> t;
+        priority_queue<t, vector<t>, greater<t>> pq;
         vector<int> ans;
-        priority_queue<node*, vector<node*>, compare> pq;
-        for(int i = 0; i<K; i++){
-            node* temp = new node(arr[i][0], i, 0);
-            pq.push(temp);
-        }
+        
+        for(int i = 0; i < K; i++)
+            pq.push({arr[i][0], {i,0}});
         
         while(!pq.empty()){
-            node* top = pq.top();
+            auto top = pq.top();
             pq.pop();
             
-            ans.push_back(top->data);
+            int data = top.first;
+            int row = top.second.first;
+            int col = top.second.second;
             
-            int i = top->row;
-            int j = top->col;
+            ans.push_back(data);
             
-            if(j+1 < arr[i].size()){
-                node* temp = new node(arr[i][j+1], i, j+1);
-                pq.push(temp);
-            }
+            if(col + 1 < arr[row].size())
+                pq.push({arr[row][col+1], {row, col+1}});
         }
+        
         return ans;
     }
 };
@@ -86,7 +67,9 @@ int main()
     	vector<int> output = obj.mergeKArrays(arr, k);
     	printArray(output, k*k);
     	cout<<endl;
-    }
+    
+cout << "~" << "\n";
+}
 	return 0;
 }
 
