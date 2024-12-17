@@ -12,7 +12,7 @@ class Solution:
         
         #find the index of the element which is just greater than nums[index]
         #swap it with nums[index]
-        if i != -1:
+        if index != -1:
             j = len(nums) - 1
             while j >= 0:
                 if nums[j] > nums[index]:
