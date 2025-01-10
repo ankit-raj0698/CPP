@@ -1,19 +1,17 @@
 class Solution {
 public:
-    bool isPowerOfTwo(int n) {
-        if(n == 0)
+    bool solve(int n){
+        if(n == 1)
+            return true;
+        if(n % 2 == 1)
             return false;
-
-        int cnt = 0;
-        while(n != 0){
-            if(n & 1){
-                cnt++;
-                if(cnt > 1)
-                    return false;
-            }
-                
-            n = n >> 1;
-        }
-        return true;
+        
+        return solve(n/2);
+    }
+    bool isPowerOfTwo(int n) {
+        if(n <= 0)
+            return false;
+        
+        return solve(n);
     }
 };
