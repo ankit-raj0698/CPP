@@ -12,10 +12,8 @@ class Solution {
     bool solve(vector<int> &arr, int i){
         if(i == 0)
             return true;
-        if(arr[i] < arr[i-1])
-            return false;
         
-        return solve(arr, i - 1);
+        return (arr[i] >= arr[i-1]) && solve(arr, i - 1);
     }
     bool arraySortedOrNot(vector<int>& arr) {
         // code here
