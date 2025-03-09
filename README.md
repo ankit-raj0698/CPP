@@ -541,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0231-power-of-two](https://github.com/ankit-raj0698/CPP/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -590,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0231-power-of-two](https://github.com/ankit-raj0698/CPP/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/ankit-raj0698/CPP/tree/master/0338-counting-bits) |
+| [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/ankit-raj0698/CPP/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -767,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ankit-raj0698/CPP/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Monotonic Stack
 |  |
