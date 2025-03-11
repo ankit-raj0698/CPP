@@ -3,7 +3,7 @@ public:
     string getPermutation(int n, int k) {
         int fact = 1;
         vector<int> res;
-        
+
         for(int i = 1; i <= n-1; i++){
             res.push_back(i);
             fact *= i;
@@ -17,7 +17,7 @@ public:
             ans += to_string(res[k/fact]);
             res.erase(res.begin() + k/fact);
 
-            if(res.size() == 0)
+            if(ans.size() == n)
                 break;
 
             k = k % fact;
