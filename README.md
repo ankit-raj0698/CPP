@@ -496,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/ankit-raj0698/CPP/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/ankit-raj0698/CPP/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
 | [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 | [3244-minimize-length-of-array-using-operations](https://github.com/ankit-raj0698/CPP/tree/master/3244-minimize-length-of-array-using-operations) |
@@ -548,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/ankit-raj0698/CPP/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/ankit-raj0698/CPP/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [3244-minimize-length-of-array-using-operations](https://github.com/ankit-raj0698/CPP/tree/master/3244-minimize-length-of-array-using-operations) |
 ## Linked List
@@ -775,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/ankit-raj0698/CPP/tree/master/1013-fibonacci-number) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/ankit-raj0698/CPP/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Monotonic Stack
 |  |
