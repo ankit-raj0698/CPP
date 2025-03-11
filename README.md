@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
+| [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0338-counting-bits](https://github.com/ankit-raj0698/CPP/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ankit-raj0698/CPP/tree/master/0416-partition-equal-subset-sum) |
+| [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/ankit-raj0698/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -547,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ankit-raj0698/CPP/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
+| [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [1013-fibonacci-number](https://github.com/ankit-raj0698/CPP/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
@@ -780,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
+| [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 | [1013-fibonacci-number](https://github.com/ankit-raj0698/CPP/tree/master/1013-fibonacci-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ankit-raj0698/CPP/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/ankit-raj0698/CPP/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
@@ -837,4 +841,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0176-second-highest-salary](https://github.com/ankit-raj0698/CPP/tree/master/0176-second-highest-salary) |
 | [0184-department-highest-salary](https://github.com/ankit-raj0698/CPP/tree/master/0184-department-highest-salary) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
