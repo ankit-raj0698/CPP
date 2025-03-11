@@ -3,15 +3,13 @@ public:
     string getPermutation(int n, int k) {
         int fact = 1;
         vector<int> res;
+        
         for(int i = 1; i <= n-1; i++){
             res.push_back(i);
             fact *= i;
         }
         res.push_back(n);
         
-        for(auto nums: res)
-            cout << nums << " ";
-        cout << "fact = " << fact << endl;
         k--; // as we are using 0 based indexing
         string ans = "";
 
