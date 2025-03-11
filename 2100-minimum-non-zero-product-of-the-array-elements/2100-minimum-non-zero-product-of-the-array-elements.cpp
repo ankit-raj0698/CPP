@@ -2,20 +2,22 @@ class Solution {
 public:
     int mod = 1e9 + 7;
 
-    int power(long long x, long long times){
-        if(times==0){
+    int power(long long a, long long n){
+        if(n == 0){
             return 1;
         }
-        long long temp = power(x,times/2);
-        temp = (temp * temp) %mod;
-        if(times%2){
-            temp = (temp * (x %mod)) %mod;
+
+        long long half = power(a, n/2);
+        half = (half * half) % mod;
+
+        if(n % 2 == 1){
+            half = (half * (a % mod)) % mod;
         }
-        return temp %mod;
+        return half % mod;
     }
     int minNonZeroProduct(int p) {
         
-        long long x = (1LL << p) -1;
-        return  x%mod  * power(x-1, x/2) %mod;  
+        long long x = (1LL << p) - 1;
+        return  x % mod  * power(x-1, x/2) % mod;  
     }
 };
