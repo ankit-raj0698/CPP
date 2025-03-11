@@ -1,23 +1,23 @@
 class Solution {
 public:
     int mod = 1e9 + 7;
-
-    int power(long long a, long long n){
-        if(n == 0){
+    long long power(long long a, long long n){
+        if(n == 0)
             return 1;
-        }
-
-        long long half = power(a, n/2);
+        long long half = power(a, n/2) % mod;
         half = (half * half) % mod;
 
-        if(n % 2 == 1){
-            half = (half * (a % mod)) % mod;
-        }
-        return half % mod;
-    }
-    int minNonZeroProduct(int p) {
+        if(n % 2 == 1)
+            half = ((a % mod) * half) % mod;
         
-        long long x = (1LL << p) - 1;
-        return  x % mod  * power(x-1, x/2) % mod;  
+        return half % mod;
+        
+    }
+
+    int minNonZeroProduct(int p) {
+
+        long long maxi = (1LL << p) -1;
+        return ((maxi % mod) * power(maxi-1, maxi/2)) % mod;
+        
     }
 };
