@@ -29,20 +29,28 @@ public:
         if(dp[i][j] != -1)
             return dp[i][j];
 
-        int take_i = nums[i] - solve(nums, i+1,j);
-        int take_j = nums[j] - solve(nums, i,j-1);
+        int take_i = nums[i] - recursiveApproach2(nums, i+1,j);
+        int take_j = nums[j] - recursiveApproach2(nums, i,j-1);
 
         return dp[i][j] = max(take_i, take_j);
 
     }
+
+
     bool predictTheWinner(vector<int>& nums) {
         int n = nums.size();
         dp.resize(n, vector<int>(n,-1));
-        int sum = accumulate(nums.begin(), nums.end(), 0);
-        int p1_score = solve(nums, 0, nums.size()-1);
-        int p2_score = sum - p1_score;
+        // int sum = accumulate(nums.begin(), nums.end(), 0);
+        // int p1_score = solve(nums, 0, nums.size()-1);
+        // int p2_score = sum - p1_score;
 
-        return p1_score >= p2_score;
+        // return p1_score >= p2_score;
+
+        int p1_score = recursiveApproach2(nums, 0, nums.size()-1);
+        return p1_score >= 0;
+
+
+
 
         
     }
