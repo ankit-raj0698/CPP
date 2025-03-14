@@ -16,7 +16,7 @@ public:
         // such that nums[i] > nums[ind]
         int swap_ind = ind;
         if(ind != -1){
-            for(int i = n-1; i >= 0; i--){
+            for(int i = n-1; i >= ind + 1; i--){
                 if(nums[i] > nums[ind]){
                     swap_ind = i;
                     break;
