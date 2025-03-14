@@ -450,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ankit-raj0698/CPP/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/ankit-raj0698/CPP/tree/master/2231-find-first-palindromic-string-in-the-array) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/ankit-raj0698/CPP/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/ankit-raj0698/CPP/tree/master/2470-removing-stars-from-a-string) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
 ## Dynamic Programming
@@ -505,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/ankit-raj0698/CPP/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/ankit-raj0698/CPP/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2487-optimal-partition-of-string](https://github.com/ankit-raj0698/CPP/tree/master/2487-optimal-partition-of-string) |
 | [2756-buy-two-chocolates](https://github.com/ankit-raj0698/CPP/tree/master/2756-buy-two-chocolates) |
 | [3244-minimize-length-of-array-using-operations](https://github.com/ankit-raj0698/CPP/tree/master/3244-minimize-length-of-array-using-operations) |
@@ -640,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/ankit-raj0698/CPP/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/ankit-raj0698/CPP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/ankit-raj0698/CPP/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/ankit-raj0698/CPP/tree/master/2470-removing-stars-from-a-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
 ## Queue
@@ -779,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0526-beautiful-arrangement](https://github.com/ankit-raj0698/CPP/tree/master/0526-beautiful-arrangement) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ankit-raj0698/CPP/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/ankit-raj0698/CPP/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Recursion
 |  |
 | ------- |
