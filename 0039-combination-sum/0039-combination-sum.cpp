@@ -7,7 +7,7 @@ public:
             return;
         }
         /*
-        if(target < 0 || ind == candidates.size())
+        if(target < 0 || ind >= candidates.size())
             return;
         
         // exclude the current element
