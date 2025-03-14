@@ -9,6 +9,8 @@ public:
 
         for(int i = l; i <= r; i++){
             swap(nums[l], nums[i]);
+            // after swap ith element came to lth index
+            // so check if lth index element is valid
             if(nums[l] %( l+1) == 0 || (l + 1) % nums[l] == 0)
                 solve(nums, l + 1, r, count);
             swap(nums[l], nums[i]);
