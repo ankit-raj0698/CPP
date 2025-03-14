@@ -9,6 +9,7 @@ public:
             return;
         }
 
+        /*
         // we have explored all n elements
         if(start > n)
             return;
@@ -20,6 +21,14 @@ public:
         temp.push_back(start);
         solve(start + 1, n, k - 1, temp);
         temp.pop_back();
+        */
+
+        for(int i = start; i <= n; i++){
+            // include the current element
+            temp.push_back(i);
+            solve(i + 1, n, k - 1, temp);
+            temp.pop_back();
+        }
     }
     vector<vector<int>> combine(int n, int k) {
         vector<int> temp;
