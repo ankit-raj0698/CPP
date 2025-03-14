@@ -12,8 +12,8 @@ public:
             }
         }
 
-        // if ind != -1 then find the first index of the element from right 
-        // such that nums[i] > nums[ind]
+        // if ind != -1 then find the first index of the element
+        // from right till ind + 1 such that nums[i] > nums[ind]
         int swap_ind = ind;
         if(ind != -1){
             for(int i = n-1; i >= ind + 1; i--){
