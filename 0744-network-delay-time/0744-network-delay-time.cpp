@@ -21,7 +21,9 @@ public:
         dist[k] = 0;
 
         while(!pq.empty()){
-            auto [du, u] = pq.top();
+            int du = pq.top().first;
+            int u = pq.top().second;
+            // auto [du, u] = pq.top();
             pq.pop();
 
             for(auto [v,wt]: adj[u]){
