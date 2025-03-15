@@ -502,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1743-count-substrings-that-differ-by-one-character](https://github.com/ankit-raj0698/CPP/tree/master/1743-count-substrings-that-differ-by-one-character) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3239-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/ankit-raj0698/CPP/tree/master/3239-minimum-number-of-operations-to-make-x-and-y-equal) |
 ## Greedy
 |  |
@@ -776,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/ankit-raj0698/CPP/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/ankit-raj0698/CPP/tree/master/2438-find-closest-node-to-given-two-nodes) |
 ## Topological Sort
 |  |
@@ -783,11 +785,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/ankit-raj0698/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ankit-raj0698/CPP/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/ankit-raj0698/CPP/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
 |  |
 | ------- |
