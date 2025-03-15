@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/ankit-raj0698/CPP/tree/master/2914-find-the-safest-path-in-a-grid) |
+| [3239-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/ankit-raj0698/CPP/tree/master/3239-minimum-number-of-operations-to-make-x-and-y-equal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1743-count-substrings-that-differ-by-one-character](https://github.com/ankit-raj0698/CPP/tree/master/1743-count-substrings-that-differ-by-one-character) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ankit-raj0698/CPP/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [3239-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/ankit-raj0698/CPP/tree/master/3239-minimum-number-of-operations-to-make-x-and-y-equal) |
 ## Greedy
 |  |
 | ------- |
@@ -860,6 +862,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
 | [1013-fibonacci-number](https://github.com/ankit-raj0698/CPP/tree/master/1013-fibonacci-number) |
+| [3239-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/ankit-raj0698/CPP/tree/master/3239-minimum-number-of-operations-to-make-x-and-y-equal) |
 ## Binary Indexed Tree
 |  |
 | ------- |
