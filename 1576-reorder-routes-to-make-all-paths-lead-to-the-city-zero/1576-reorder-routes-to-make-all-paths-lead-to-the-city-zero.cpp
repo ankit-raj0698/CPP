@@ -4,9 +4,9 @@ public:
         visited[u] = 1;
         for(auto p: adj[u]){
             int v = p.first;
-            int direction = p.second;
+            int awayFromZero = p.second;
             if(!visited[v]){
-                if(direction == 0)
+                if(awayFromZero == 0)
                     count++;
                 dfs(adj, visited, v, count);
             }
