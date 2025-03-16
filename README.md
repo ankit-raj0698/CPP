@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
 | [2439-longest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2439-longest-cycle-in-a-graph) |
+| [2671-shortest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2671-shortest-cycle-in-a-graph) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/ankit-raj0698/CPP/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3239-minimum-number-of-operations-to-make-x-and-y-equal](https://github.com/ankit-raj0698/CPP/tree/master/3239-minimum-number-of-operations-to-make-x-and-y-equal) |
 ## Binary Search Tree
@@ -791,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/ankit-raj0698/CPP/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2439-longest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2439-longest-cycle-in-a-graph) |
+| [2671-shortest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2671-shortest-cycle-in-a-graph) |
 ## Topological Sort
 |  |
 | ------- |
