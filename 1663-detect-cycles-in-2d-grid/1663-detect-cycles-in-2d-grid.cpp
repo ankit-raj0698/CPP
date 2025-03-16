@@ -2,11 +2,7 @@ class Solution {
 public:
     vector<pair<int,int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
     int n,m;
-    bool isValid(int x, int y){
-        if(x >= 0 && x < n && y >= 0 && y < m)
-            return true;
-        return false;
-    }
+
     bool dfs(vector<vector<char>>& grid, vector<vector<int>> &visited, int i, int j, int parentX, int parentY, char currChar){
 
         visited[i][j] = 1;
@@ -15,11 +11,14 @@ public:
             int row = i + dir.first;
             int col = j + dir.second;
 
-            if(isValid(row,col) && grid[row][col] == currChar){
+            // next cell is valid
+            if(row >= 0 && row < n && col >= 0 && col < m && grid[row][col] == currChar){
+                // if not visited , call dfs
                 if(!visited[row][col]){
                     if(dfs(grid, visited, row, col, i, j, currChar))
                         return true;
                 }
+                // if visited them check if neighbour cell is not parent cell
                 else if( row != parentX || col != parentY)
                     return true;
             }
