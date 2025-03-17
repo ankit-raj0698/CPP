@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/ankit-raj0698/CPP/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
+| [2103-find-all-groups-of-farmland](https://github.com/ankit-raj0698/CPP/tree/master/2103-find-all-groups-of-farmland) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/ankit-raj0698/CPP/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2439-longest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2439-longest-cycle-in-a-graph) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/ankit-raj0698/CPP/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
+| [2103-find-all-groups-of-farmland](https://github.com/ankit-raj0698/CPP/tree/master/2103-find-all-groups-of-farmland) |
 | [2439-longest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2439-longest-cycle-in-a-graph) |
 | [2671-shortest-cycle-in-a-graph](https://github.com/ankit-raj0698/CPP/tree/master/2671-shortest-cycle-in-a-graph) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/ankit-raj0698/CPP/tree/master/2914-find-the-safest-path-in-a-grid) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/ankit-raj0698/CPP/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2058-concatenation-of-array](https://github.com/ankit-raj0698/CPP/tree/master/2058-concatenation-of-array) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/ankit-raj0698/CPP/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
+| [2103-find-all-groups-of-farmland](https://github.com/ankit-raj0698/CPP/tree/master/2103-find-all-groups-of-farmland) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/ankit-raj0698/CPP/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/ankit-raj0698/CPP/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
@@ -734,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/ankit-raj0698/CPP/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
+| [2103-find-all-groups-of-farmland](https://github.com/ankit-raj0698/CPP/tree/master/2103-find-all-groups-of-farmland) |
 | [2145-grid-game](https://github.com/ankit-raj0698/CPP/tree/master/2145-grid-game) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/ankit-raj0698/CPP/tree/master/2914-find-the-safest-path-in-a-grid) |
 ## Union Find
