@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ankit-raj0698/CPP/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/ankit-raj0698/CPP/tree/master/0617-merge-two-binary-trees) |
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/ankit-raj0698/CPP/tree/master/0494-target-sum) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0526-beautiful-arrangement](https://github.com/ankit-raj0698/CPP/tree/master/0526-beautiful-arrangement) |
+| [0542-01-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0542-01-matrix) |
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -508,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/ankit-raj0698/CPP/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/ankit-raj0698/CPP/tree/master/0494-target-sum) |
 | [0526-beautiful-arrangement](https://github.com/ankit-raj0698/CPP/tree/master/0526-beautiful-arrangement) |
+| [0542-01-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0542-01-matrix) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/ankit-raj0698/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/ankit-raj0698/CPP/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/ankit-raj0698/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/ankit-raj0698/CPP/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ankit-raj0698/CPP/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
