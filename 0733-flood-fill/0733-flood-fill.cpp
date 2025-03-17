@@ -3,16 +3,17 @@ public:
     int n,m;
     vector<pair<int,int>> directions = {{0,1}, {0,-1}, {1,0}, {-1,0}};
     void dfs(vector<vector<int>>& image, int sr, int sc, int initialColor, int newColor, vector<vector<int>> &ans){
-        // out of bound, blocked, visited
-        if(sr < 0 || sr >= n || sc < 0 || sc >= m || ans[sr][sc] != initialColor || ans[sr][sc] == newColor)
-            return;
         
         ans[sr][sc] = newColor;
         for(auto dir: directions){
             int row = sr + dir.first;
             int col = sc + dir.second;
 
-            dfs(image, row, col, initialColor, newColor, ans);
+            // inside grid, not blocked and not visited
+            if(row >= 0 && row < n && col >= 0 && col < m &&
+             ans[row][col] == initialColor && ans[row][col] != newColor)
+
+                dfs(image, row, col, initialColor, newColor, ans);
         }
 
     }
