@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/ankit-raj0698/CPP/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ankit-raj0698/CPP/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/ankit-raj0698/CPP/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/ankit-raj0698/CPP/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/ankit-raj0698/CPP/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
+| [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1127-last-stone-weight](https://github.com/ankit-raj0698/CPP/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -731,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ankit-raj0698/CPP/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/ankit-raj0698/CPP/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
@@ -750,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/ankit-raj0698/CPP/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/ankit-raj0698/CPP/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/ankit-raj0698/CPP/tree/master/0801-is-graph-bipartite) |
+| [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/ankit-raj0698/CPP/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
