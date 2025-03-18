@@ -527,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/ankit-raj0698/CPP/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 | [1403-palindrome-partitioning-iii](https://github.com/ankit-raj0698/CPP/tree/master/1403-palindrome-partitioning-iii) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ankit-raj0698/CPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ankit-raj0698/CPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/ankit-raj0698/CPP/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1743-count-substrings-that-differ-by-one-character](https://github.com/ankit-raj0698/CPP/tree/master/1743-count-substrings-that-differ-by-one-character) |
@@ -820,6 +821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/ankit-raj0698/CPP/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ankit-raj0698/CPP/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ankit-raj0698/CPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/ankit-raj0698/CPP/tree/master/1576-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2176-parallel-courses-iii](https://github.com/ankit-raj0698/CPP/tree/master/2176-parallel-courses-iii) |
@@ -841,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ankit-raj0698/CPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ankit-raj0698/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Backtracking
 |  |
