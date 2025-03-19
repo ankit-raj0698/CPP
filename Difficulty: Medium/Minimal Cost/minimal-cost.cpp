@@ -4,40 +4,34 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
-    
-    int solve(vector<int>& height, int ind, int n, vector<int>& dp, int k){
-        if(ind == n - 1)
+    int dp[10001][101];
+    int solve(vector<int> &arr, int ind, int k){
+        if(ind == 0)
             return 0;
         
-        if(dp[ind] != -1)
-            return dp[ind];
-            
-        int minsteps = INT_MAX;
+        if(dp[ind][k] != -1)
+            return dp[ind][k];
         
+        int minSteps = 1e9;
         for(int j = 1; j <= k; j++){
-            
-            if(ind + j < n){
-                int jump = solve(height, ind + j, n, dp, k) + abs(height[ind] - height[ind + j]);
-                minsteps = min(minsteps, jump);
+            if(ind - j >= 0){
+                int jump = abs(arr[ind] - arr[ind - j]) + solve(arr, ind - j, k);
+                minSteps = min(minSteps, jump);
             }
-            
         }
-           
-        return dp[ind] = minsteps;
-            
+        return dp[ind][k] = minSteps;
     }
-    
-    int minimizeCost(vector<int>& arr, int& k) {
-        
+    int minimizeCost(int k, vector<int>& arr) {
         // Code here
         int n = arr.size();
-        vector<int> dp(n,-1);
-        
-        return solve(arr, 0, n, dp, k);
+        memset(dp, -1, sizeof(dp));
+        return solve(arr, n-1, k);
     }
 };
+
 
 //{ Driver Code Starts.
 
@@ -58,8 +52,9 @@ int main() {
             arr.push_back(number);
         }
         Solution obj;
-        int res = obj.minimizeCost(arr, k);
+        int res = obj.minimizeCost(k, arr);
         cout << res << endl;
+        cout << "~" << endl;
         // string tl;
         // getline(cin, tl);
     }
