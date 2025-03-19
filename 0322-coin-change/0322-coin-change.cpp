@@ -2,9 +2,9 @@ class Solution {
 public:
     int dp[13][10001];
     int solve(vector<int>& coins, int amount, int ind){
-        if(ind == 0){
-            if(amount % coins[ind] == 0)
-                return amount / coins[ind];
+        if(ind < 0){
+            if(amount == 0)
+                return 0;
             return 1e9;
         }
 
