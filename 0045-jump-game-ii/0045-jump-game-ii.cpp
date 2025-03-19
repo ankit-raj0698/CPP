@@ -1,20 +1,28 @@
 class Solution {
 public:
-    int jump(vector<int>& nums) {
-        int left = 0, right = 0, jump = 0;
-        int n = nums.size();
+    int n;
+    int dp[10001];
+    int solve(vector<int>& nums, int ind){
+        if(ind >= n-1)
+            return 0;
 
-        while(right < n - 1){
-            int maxIndexReachable = 0;
-
-            for(int i = left; i <= right; i++){
-                maxIndexReachable = max(maxIndexReachable, i + nums[i]);
+        if(dp[ind] != -1)
+            return dp[ind];
+        
+        int k = nums[ind];
+        int minJump = 1e9;
+        for(int j = 1; j <= k; j++){
+            if(ind + j <= n-1){
+                int jump = solve(nums, ind + j);
+                minJump = min(minJump, jump + 1);
             }
-
-            left = right + 1;
-            right = maxIndexReachable;
-            jump++;
+                
         }
-        return jump;
+        return dp[ind] = minJump;
+    }
+    int jump(vector<int>& nums) {
+        n = nums.size();
+        memset(dp, -1, sizeof(dp));
+        return solve(nums, 0);
     }
 };
