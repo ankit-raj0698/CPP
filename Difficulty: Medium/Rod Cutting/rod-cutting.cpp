@@ -6,53 +6,58 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 // User function Template for C++
 
-class Solution{
+class Solution {
   public:
-  
-    int solve(int price[], int ind, int n, vector<vector<int>> &dp){
+    int dp[1001][1001];
+    int solve(vector<int> &price, int ind, int capacity){
         
-        if(ind == 0){
-            return n*price[ind];
-        }  
+        if(ind < 0)
+            return 0;
         
-        if(dp[ind][n] != -1)
-            return dp[ind][n];
+        if(dp[ind][capacity] != -1)
+            return dp[ind][capacity];
         
-        int not_take = 0 + solve(price, ind - 1, n, dp);
-        int take = INT_MIN;
-        int rodlen = ind + 1;
-        if(rodlen <= n)
-            take = price[ind] + solve(price, ind, n - rodlen, dp);
+        int not_pick = solve(price, ind - 1, capacity);
+        int length = ind + 1;
+        int pick = 0;
+        if(length <= capacity)
+            pick = price[ind] + solve(price, ind, capacity - length);
         
-        return dp[ind][n] = max(take , not_take);
+        return dp[ind][capacity] = max(pick, not_pick);
+            
     }
-    
-    int cutRod(int price[], int n) {
-        //code here
-        vector<vector<int>> dp(n,vector<int>(n+1, -1));
-        int ans = solve(price,n-1,n,dp);
-        
-        return ans;
+    int cutRod(vector<int> &price) {
+        // code here
+        int n = price.size();
+        memset(dp, -1, sizeof(dp));
+        return solve(price, n-1, n);
     }
 };
+
 
 //{ Driver Code Starts.
 
 int main() {
     int t;
-    cin >> t;
+    scanf("%d ", &t);
     while (t--) {
-        int n;
-        cin >> n;
-        int a[n];
-        for (int i = 0; i < n; i++) 
-            cin >> a[i];
-            
+
+        vector<int> a;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            a.push_back(number);
+        }
+
         Solution ob;
 
-        cout << ob.cutRod(a, n) << endl;
+        cout << ob.cutRod(a) << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
