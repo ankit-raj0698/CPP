@@ -4,55 +4,68 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // } Driver Code Ends
+
 // User function Template for C++
 
-class Solution{
-public:
-
-int solve(int val[], int wt[], int ind, int bagwt, vector<vector<int>> &dp){
+class Solution {
+  public:
+    
+    int dp[1001][1001];
+    int solve(vector<int>& val, vector<int>& wt, int capacity, int ind){
         
-        if(ind == 0){
-            return (bagwt/wt[ind])*val[ind];
-        }  
+        if(ind < 0)
+            return 0;
         
-        if(dp[ind][bagwt] != -1)
-            return dp[ind][bagwt];
+        if(dp[ind][capacity] != -1)
+            return dp[ind][capacity];
         
-        int not_take = 0 + solve(val, wt, ind - 1, bagwt, dp);
-        int take = INT_MIN;
-        if(wt[ind] <= bagwt)
-            take = val[ind] + solve(val, wt, ind, bagwt - wt[ind], dp);
+        int not_pick = solve(val, wt, capacity, ind - 1);
+        int pick = 0;
+        if(wt[ind] <= capacity)
+            pick = val[ind] + solve(val, wt, capacity - wt[ind], ind);
         
-        return dp[ind][bagwt] = max(take , not_take);
+        return dp[ind][capacity] = max(pick, not_pick);
     }
     
-    int knapSack(int N, int W, int val[], int wt[])
-    {
+    int knapSack(vector<int>& val, vector<int>& wt, int capacity) {
         // code here
-        vector<vector<int>> dp(N,vector<int>(W+1, -1));
-        int ans = solve(val, wt,N-1,W,dp);
-        
-        return ans;
+        int n = val.size();
+        memset(dp, -1, sizeof(dp));
+        return solve(val, wt, capacity, n-1);
     }
 };
 
+
 //{ Driver Code Starts.
 
-int main(){
+int main() {
     int t;
-    cin>>t;
-    while(t--){
-        int N, W;
-        cin>>N>>W;
-        int val[N], wt[N];
-        for(int i = 0;i < N;i++)
-            cin>>val[i];
-        for(int i = 0;i < N;i++)
-            cin>>wt[i];
-        
+    cin >> t;
+    while (t--) {
+        int W;
+        cin >> W;
+        cin.ignore();
+        string str;
+        getline(cin, str);
+        stringstream ss(str);
+        vector<int> val;
+        int num;
+        while (ss >> num) {
+            val.push_back(num);
+        }
+        string str2;
+        getline(cin, str2);
+        stringstream ss2(str2);
+        vector<int> wt;
+        int num2;
+        while (ss2 >> num2) {
+            wt.push_back(num2);
+        }
         Solution ob;
-        cout<<ob.knapSack(N, W, val, wt)<<endl;
+        cout << ob.knapSack(val, wt, W) << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
