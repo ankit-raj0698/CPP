@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-number-of-closed-islands](https://github.com/ankit-raj0698/CPP/tree/master/1380-number-of-closed-islands) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ankit-raj0698/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/ankit-raj0698/CPP/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/ankit-raj0698/CPP/tree/master/1635-number-of-good-pairs) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/1250-longest-common-subsequence) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/ankit-raj0698/CPP/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ankit-raj0698/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1403-palindrome-partitioning-iii](https://github.com/ankit-raj0698/CPP/tree/master/1403-palindrome-partitioning-iii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ankit-raj0698/CPP/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/ankit-raj0698/CPP/tree/master/1535-build-array-where-you-can-find-the-maximum-exactly-k-comparisons) |
@@ -782,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1331-path-with-maximum-gold](https://github.com/ankit-raj0698/CPP/tree/master/1331-path-with-maximum-gold) |
 | [1380-number-of-closed-islands](https://github.com/ankit-raj0698/CPP/tree/master/1380-number-of-closed-islands) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ankit-raj0698/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/ankit-raj0698/CPP/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/ankit-raj0698/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2035-count-sub-islands](https://github.com/ankit-raj0698/CPP/tree/master/2035-count-sub-islands) |
