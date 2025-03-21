@@ -1,36 +1,21 @@
 class Solution {
 public:
-    int n,m;
-    int dp[301][301];
-    int solve(vector<vector<int>>& matrix, int i, int j){
-        if(i >= n || j >= m)
-            return 0;
-
-        if(matrix[i][j] ==  0)
-            return 0;
-        
-        if(dp[i][j] != -1)
-            return dp[i][j];
-        
-        // make three calls to find no. of matrices
-        int right = solve(matrix, i, j+1);
-        int down = solve(matrix, i + 1, j);
-        int diag = solve(matrix, i + 1, j + 1);
-
-        return dp[i][j] =  1 + min({right, down, diag});
-    }
     int countSquares(vector<vector<int>>& matrix) {
-        n = matrix.size();
-        m = matrix[0].size();
-        memset(dp, -1, sizeof(dp));
+        int n = matrix.size();
+        int m = matrix[0].size();
 
-        int result = 0;
+        int res = 0;
+        vector<vector<int>> dp(n, vector<int>(m, 0));
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(matrix[i][j] == 1)
-                    result += solve(matrix, i, j);
+                if(i == 0 || j == 0)
+                    dp[i][j] = matrix[i][j];
+                else if(matrix[i][j] == 1){
+                    dp[i][j] = 1 + min({dp[i][j-1], dp[i-1][j], dp[i-1][j-1]});
+                }
+            res += dp[i][j];   
             }
         }
-        return result;
+        return res;
     }
 };
