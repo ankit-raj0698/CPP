@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ankit-raj0698/CPP/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ankit-raj0698/CPP/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/ankit-raj0698/CPP/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ankit-raj0698/CPP/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/ankit-raj0698/CPP/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/ankit-raj0698/CPP/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/ankit-raj0698/CPP/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/ankit-raj0698/CPP/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -691,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ankit-raj0698/CPP/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ankit-raj0698/CPP/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/ankit-raj0698/CPP/tree/master/0143-reorder-list) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ankit-raj0698/CPP/tree/master/0145-binary-tree-postorder-traversal) |
@@ -759,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/ankit-raj0698/CPP/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ankit-raj0698/CPP/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/ankit-raj0698/CPP/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/ankit-raj0698/CPP/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ankit-raj0698/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ankit-raj0698/CPP/tree/master/0240-search-a-2d-matrix-ii) |
@@ -907,6 +911,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ankit-raj0698/CPP/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ankit-raj0698/CPP/tree/master/0085-maximal-rectangle) |
 | [0739-daily-temperatures](https://github.com/ankit-raj0698/CPP/tree/master/0739-daily-temperatures) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [2573-remove-nodes-from-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/2573-remove-nodes-from-linked-list) |
