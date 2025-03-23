@@ -94,7 +94,9 @@ int main()
 		getline(cin,s);
 		Node* root = buildTree(s);
 		cout<<kthAncestor(root,k,node)<<endl;
-    }
+    
+cout << "~" << "\n";
+}
     return 0;
 }
 
@@ -111,42 +113,35 @@ struct Node
 };
 */
 // your task is to complete this function
-
-Node* solve(Node* root,int &k, int node){
-    if(root == NULL)
+Node* solve(Node* root, int &k, int node){
+    if(!root)
         return NULL;
     if(root->data == node)
         return root;
     
-    Node* left = solve(root->left,k,node);
-    Node* right = solve(root->right,k,node);
+    Node* left = solve(root->left, k, node);
+    Node* right = solve(root->right, k, node);
     
-    if(left && right == NULL){
+    // If one side contains the node
+    if (left && !right) {
         k--;
-        if(k==0){
-            k = INT_MAX;
-            return root;
-        }
-            
+        if (k == 0) return root;  // Found the kth ancestor
         return left;
     }
-    else if(left == NULL && right){
+    if (!left && right) {
         k--;
-        if(k==0){
-            k = INT_MAX;
-            return root;
-        }
+        if (k == 0) return root;  // Found the kth ancestor
         return right;
     }
-    else
-        return NULL;
+    
+    return NULL;
 }
-
 int kthAncestor(Node *root, int k, int node)
 {
     // Code here
-    Node* ans = solve(root,k,node);
-    if(ans == NULL || ans->data == node)
+    Node* ans = solve(root, k, node);
+    if(!ans || ans->data == node)
         return -1;
+    
     return ans->data;
 }
