@@ -1,19 +1,20 @@
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
-        int left = 0, right = 0, sum = 0, ans = INT_MAX;
+        int left = 0, right = 0, sum = 0;
+        int minlen = 1e9;
+
         while(right < nums.size()){
+
             sum += nums[right];
 
-            // as soon as we got a valid window, we want to minimize it
             while(left <= right && sum >= target){
-                ans = min(ans, right - left + 1);
-                sum -= nums[left++];
+                minlen = min(minlen, right - left + 1);
+                sum -= nums[left];
+                left++;
             }
             right++;
         }
-        if(ans == INT_MAX)
-            return 0;
-        return ans;
+        return minlen == 1e9 ? 0 : minlen;
     }
 };
