@@ -360,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0523-continuous-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0523-continuous-subarray-sum) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
+| [0567-permutation-in-string](https://github.com/ankit-raj0698/CPP/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [0652-find-duplicate-subtrees](https://github.com/ankit-raj0698/CPP/tree/master/0652-find-duplicate-subtrees) |
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
@@ -455,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ankit-raj0698/CPP/tree/master/0392-is-subsequence) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ankit-raj0698/CPP/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/ankit-raj0698/CPP/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0908-middle-of-the-linked-list) |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ankit-raj0698/CPP/tree/master/0535-encode-and-decode-tinyurl) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ankit-raj0698/CPP/tree/master/0557-reverse-words-in-a-string-iii) |
+| [0567-permutation-in-string](https://github.com/ankit-raj0698/CPP/tree/master/0567-permutation-in-string) |
 | [0606-construct-string-from-binary-tree](https://github.com/ankit-raj0698/CPP/tree/master/0606-construct-string-from-binary-tree) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
@@ -837,6 +840,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/ankit-raj0698/CPP/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/ankit-raj0698/CPP/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/ankit-raj0698/CPP/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/ankit-raj0698/CPP/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
