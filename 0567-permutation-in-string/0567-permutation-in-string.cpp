@@ -1,36 +1,37 @@
 class Solution {
 public:
-    
     bool checkInclusion(string s1, string s2) {
-        int m = s1.size();
-        int n = s2.size();
-        
-        // when size of s2 is less than s1 then it can't contain permutation of s1
-        if(n < m)
+
+        if(s1.size() > s2.size())
             return false;
+
+        vector<int> first(26,0);
+        vector<int> second(26,0);
+
+        // store freq of char of s1
+        for(char ch: s1)
+            first[ch - 'a']++;
         
-        vector<int> s1Count(26,0);
-        vector<int> s2Count(26,0);
+        // k is going to be our window size
+        int k = s1.size();
         
-        //find the freq of first m char in both s1 and s2
-        for(int i=0; i<m;i++){
-            s1Count[s1[i] - 'a']++;
-            s2Count[s2[i] - 'a']++;            
-        }
-        
-        //check if freq of char of s1 is same as in s2 for current window of size m
-        if(s1Count == s2Count)
-            return true;
-        
-        //check for other windows of s2
-        for(int i=m;i<n;i++){
-            // remove the leftmost char of prev window so decrease the char count
-            s2Count[s2[i-m] - 'a']--; 
-            // add the current char to the window so increase the char count
-            s2Count[s2[i] - 'a']++;
-            
-            if(s1Count == s2Count) // check if two vector freq matches
-                return true;
+        int left = 0, right = 0;
+        while(right < s2.size()){
+            // store the freq of current char of s2
+            second[s2[right] - 'a']++;
+
+            // when current window size > k
+            while(right - left + 1 > k){
+                second[s2[left] - 'a']--;
+                left++;
+            }
+
+            // when window size == k, then check freq of char of s1 and s2 till now
+            if(right - left + 1 == k){
+                if(first == second)
+                    return true;
+            }
+            right++;
         }
         return false;
     }
