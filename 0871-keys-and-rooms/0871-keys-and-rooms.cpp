@@ -1,7 +1,7 @@
 class Solution {
 public:
     // standard DFS code
-    void dfs(unordered_map<int, vector<int>> &adj, vector<int> &visited, int u){
+    void dfs(vector<vector<int>> &adj, vector<int> &visited, int u){
         visited[u] = 1;
         for(int v: adj[u]){
             if(!visited[v])
@@ -9,8 +9,9 @@ public:
         }
     }
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
-        unordered_map<int, vector<int>> adj;
         int n = rooms.size();
+        vector<vector<int>> adj(n);
+        
 
         // create the adjacency list
         for(int u = 0; u < n; u++){
