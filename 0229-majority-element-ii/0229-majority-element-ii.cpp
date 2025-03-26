@@ -9,9 +9,14 @@ public:
             mp[ele]++;
         }
 
-        for(auto [key, value]: mp){
-            if(value > (n/3))
-                ans.push_back(key);
+        // for(auto [key, value]: mp){
+        //     if(value > (n/3))
+        //         ans.push_back(key);
+        // }
+
+        for(auto i: mp){
+            if(i.second > (n/3))
+                ans.push_back(i.first);
         }
         return ans;    
         
