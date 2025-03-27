@@ -1,30 +1,32 @@
 class Solution {
-    private:
-    int getPivot(vector<int>& nums,int start,int end){
-        
-        while(start < end){
-            int mid=start+(end-start)/2;
-            if(nums[mid]>=nums[0]){
-                start=mid+1;
-            }
-            else{
-                end=mid;
-            }
-        }        
-        return start;
-    }
-    
 public:
+    bool check(vector<int>& nums, int mid){
+        if(nums[0] > nums[mid])
+            return true;
+        return false;
+    }
     int findMin(vector<int>& nums) {
-        int start=0;
-        int end=nums.size()-1;
-        //When there is no rotation
-        if(nums[start]<=nums[end]){
-            return nums[start];
-        }
-        //If array is rotated find the pivot index
-        int pivot=getPivot(nums,start,end);
-        return nums[pivot];
 
+        int n = nums.size();
+
+        if(n == 1)
+            return nums[0];
+
+        if(nums[0] < nums[n-1])
+            return nums[0];
+
+        int low = 0, high = n-1;
+        int ans = -1;
+        while(low <= high){
+
+            int mid = low + (high - low)/2;
+            if(check(nums, mid)){
+                ans = mid;
+                high = mid - 1;
+            }
+            else 
+                low = mid + 1;
+        }
+        return nums[ans];
     }
 };
