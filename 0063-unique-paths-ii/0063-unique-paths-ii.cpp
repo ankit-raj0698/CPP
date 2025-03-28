@@ -8,9 +8,11 @@ public:
         
         if(i >= 0 && i < n && j >= 0 && j < m && grid[i][j] == 1)
             return 0;
-        
+
         if(i >= n || j >= m)
             return 0;
+
+    
         
         if(dp[i][j] != -1)
             return dp[i][j];
