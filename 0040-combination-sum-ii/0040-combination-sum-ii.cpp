@@ -8,20 +8,20 @@ public:
             return;
         }
 
-        if(ind >= nums.size())
+        if(target < 0 || ind >= nums.size())
             return;
         
 
         for(int i = ind; i < nums.size(); i++){
-
-            if(i > ind && nums[i] == nums[i - 1])
+            // handle duplicate elements
+            if(i > ind && nums[i] == nums[i-1])
                 continue;
-
+            // include current element
             if(nums[i] <= target){
-            temp.push_back(nums[i]);
-            solve(nums, target - nums[i], i + 1, temp);
-            temp.pop_back();
-            }
+                temp.push_back(nums[i]);
+                solve(nums, target - nums[i], i + 1, temp);
+                temp.pop_back();
+            }          
         }
     }
 
