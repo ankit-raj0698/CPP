@@ -11,15 +11,16 @@
  */
 class Solution {
 public:
-    typedef pair<bool,int> p;
-    p solve(TreeNode* root){
+
+    pair<bool,int> solve(TreeNode* root){
+        // pair => <isBalanced, height>
         if(!root)
             return {true,0};
         
-        p left = solve(root->left);
-        p right = solve(root->right);
+        pair<bool,int> left = solve(root->left);
+        pair<bool,int> right = solve(root->right);
 
-        p ans;
+        pair<bool,int> ans;
         ans.first = left.first && right.first &&
                      abs(left.second - right.second) <= 1;
         ans.second = max(left.second, right.second) + 1;
@@ -28,7 +29,7 @@ public:
     }
     bool isBalanced(TreeNode* root) {
         
-        p ans = solve(root);
+        pair<bool,int> ans = solve(root);
         return ans.first;
         
     }
