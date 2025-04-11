@@ -119,13 +119,13 @@ class Solution {
         
         if(!root->left){
             Node* temp = root->right;
-            free(root);
+            delete root;
             return temp;
         }
         
         if(!root->right) {
             Node* temp = root->left;
-            free(root);
+            delete root;
             return temp;
         }
         return root;
