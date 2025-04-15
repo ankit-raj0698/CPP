@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/ankit-raj0698/CPP/tree/master/0713-subarray-product-less-than-k) |
 | [0783-search-in-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/ankit-raj0698/CPP/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0792-binary-search](https://github.com/ankit-raj0698/CPP/tree/master/0792-binary-search) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/ankit-raj0698/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1321-get-equal-substrings-within-budget](https://github.com/ankit-raj0698/CPP/tree/master/1321-get-equal-substrings-within-budget) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/ankit-raj0698/CPP/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/ankit-raj0698/CPP/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/ankit-raj0698/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
+| [0792-binary-search](https://github.com/ankit-raj0698/CPP/tree/master/0792-binary-search) |
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
