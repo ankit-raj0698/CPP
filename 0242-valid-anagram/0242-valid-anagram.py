@@ -5,13 +5,10 @@ class Solution:
         return cnt1 == cnt2 
     '''
     def isAnagram(self, s: str, t: str) -> bool:
-        mp = dict()
+        mp = defaultdict(int)
 
         for c in s:
-            if c in mp:
-                mp[c] += 1
-            else: 
-                mp[c] = 1
+            mp[c] += 1
         
         print(mp)
         
