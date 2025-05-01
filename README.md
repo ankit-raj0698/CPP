@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ankit-raj0698/CPP/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/ankit-raj0698/CPP/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/ankit-raj0698/CPP/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0399-evaluate-division](https://github.com/ankit-raj0698/CPP/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/ankit-raj0698/CPP/tree/master/0416-partition-equal-subset-sum) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/ankit-raj0698/CPP/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/ankit-raj0698/CPP/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ankit-raj0698/CPP/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/ankit-raj0698/CPP/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -431,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ankit-raj0698/CPP/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ankit-raj0698/CPP/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ankit-raj0698/CPP/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
@@ -646,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ankit-raj0698/CPP/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0954-maximum-sum-circular-subarray) |
 ## Counting
@@ -653,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ankit-raj0698/CPP/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -796,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/ankit-raj0698/CPP/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ankit-raj0698/CPP/tree/master/0239-sliding-window-maximum) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0744-network-delay-time](https://github.com/ankit-raj0698/CPP/tree/master/0744-network-delay-time) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
@@ -813,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 ## Radix Sort
@@ -1020,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 ## Memoization
 |  |
 | ------- |
