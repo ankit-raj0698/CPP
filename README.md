@@ -481,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ankit-raj0698/CPP/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ankit-raj0698/CPP/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/ankit-raj0698/CPP/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/ankit-raj0698/CPP/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ankit-raj0698/CPP/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/ankit-raj0698/CPP/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/ankit-raj0698/CPP/tree/master/0148-sort-list) |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/ankit-raj0698/CPP/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/ankit-raj0698/CPP/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/ankit-raj0698/CPP/tree/master/0091-decode-ways) |
+| [0125-valid-palindrome](https://github.com/ankit-raj0698/CPP/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/ankit-raj0698/CPP/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ankit-raj0698/CPP/tree/master/0139-word-break) |
