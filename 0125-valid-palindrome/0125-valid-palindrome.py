@@ -7,8 +7,3 @@ class Solution:
                 newStr += ch.lower()    
 
         return newStr == newStr[::-1]
-        
-        
-        
-        
-        
