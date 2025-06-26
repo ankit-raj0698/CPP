@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/ankit-raj0698/CPP/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/ankit-raj0698/CPP/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/ankit-raj0698/CPP/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/ankit-raj0698/CPP/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ankit-raj0698/CPP/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ankit-raj0698/CPP/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/ankit-raj0698/CPP/tree/master/0063-unique-paths-ii) |
@@ -964,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/ankit-raj0698/CPP/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ankit-raj0698/CPP/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ankit-raj0698/CPP/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/ankit-raj0698/CPP/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/ankit-raj0698/CPP/tree/master/0077-combinations) |
 | [0131-palindrome-partitioning](https://github.com/ankit-raj0698/CPP/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ankit-raj0698/CPP/tree/master/0216-combination-sum-iii) |
