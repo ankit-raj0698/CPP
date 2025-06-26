@@ -1,49 +1,57 @@
 class Solution {
 public:
-    bool isValid(vector<string> board,int row,int col,int n){
-        //check upward
-        for(int i = row-1; i >= 0; i--){
-            if(board[i][col] == 'Q')
+    bool isSafe(int row, int col, int n, vector<string> &board){
+        // check left
+        for(int j = 0; j < col; j++){
+            if(board[row][j] == 'Q')
                 return false;
         }
-        
-        //check diagonal
-        for(int i = row-1,j = col + 1; i >= 0 && j < n; i--,j++){
-            if(board[i][j] == 'Q')
+
+        // check left upper diagonal
+        int newrow = row;
+        int newcol = col;
+
+        while(newrow >= 0 && newcol >= 0){
+            if(board[newrow][newcol] == 'Q')
                 return false;
-        }
-        
-        //check antiDiagonal
-        for(int i = row-1,j = col - 1; i >= 0 && j >= 0; i--,j--){
-            if(board[i][j] == 'Q')
+            newrow--;
+            newcol--;
+        } 
+
+        // check left lower diagonal
+        newrow = row;
+        newcol = col;
+
+        while(newrow < n && newcol >= 0){
+            if(board[newrow][newcol] == 'Q')
                 return false;
-        }
-        
+            newrow++;
+            newcol--;
+        } 
+
         return true;
     }
-    void solve(vector<string> board,int row,int n,vector<vector<string>> &ans){
-        if(row >= n){
+    void solve(int col, int n, vector<string> &board, vector<vector<string>> &ans){
+
+        if(col >= n){
             ans.push_back(board);
             return;
         }
-        
-        
-            for(int col = 0; col < n; col++){  
-                if(isValid(board,row,col,n)){
-                    board[row][col] = 'Q';
-                    solve(board, row + 1,n,ans);                
-                    board[row][col] = '.';
-                }                  
-            }      
+
+
+        for(int row = 0; row < n; row++){
+            if(isSafe(row, col, n, board)){
+                board[row][col] = 'Q';
+                solve(col+1, n, board, ans);
+                board[row][col] = '.';
+            }
+        }
     }
-    
     vector<vector<string>> solveNQueens(int n) {
+        vector<string> board(n, string(n, '.'));
         vector<vector<string>> ans;
-        vector<string> board(n,string(n,'.'));
         
-        solve(board,0,n,ans);
-        
+        solve(0, n, board, ans);
         return ans;
-        
     }
 };
