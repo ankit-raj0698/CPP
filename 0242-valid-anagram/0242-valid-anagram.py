@@ -15,9 +15,11 @@ class Solution:
 
             cnts[ch] -= 1
         
-        for val in cnts.values():
-            if val != 0:
-                return False
+        # for val in cnts.values():
+        #     if val != 0:
+        #         return False
         
-        return True
+        # return True
+
+        return all(val == 0 for val in cnts.values())
         
