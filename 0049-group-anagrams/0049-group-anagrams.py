@@ -6,9 +6,11 @@ class Solution:
             key = "".join(sorted(str))
             mp[key].append(str)
         
-        for val in mp.values():
-            ans.append(val)
+        # for val in mp.values():
+        #     ans.append(val)
         
-        return ans
+        # return ans
+
+        return list(mp.values())
         
         
