@@ -3,8 +3,13 @@ class Solution:
         ans = []
         mp = defaultdict(list)
         for str in strs:
-            key = "".join(sorted(str))
-            mp[key].append(str)
+            # key = "".join(sorted(str))
+            # mp[key].append(str)
+            count = [0] * 26
+            for ch in str:
+                count[ord(ch) - ord('a')] += 1
+            
+            mp[tuple(count)].append(str)
         
         # for val in mp.values():
         #     ans.append(val)
