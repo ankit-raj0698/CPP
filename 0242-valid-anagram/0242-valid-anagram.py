@@ -15,7 +15,7 @@ class Solution:
 
             cnts[ch] -= 1
         
-        for key, val in cnts.items():
+        for val in cnts.values():
             if val != 0:
                 return False
         
