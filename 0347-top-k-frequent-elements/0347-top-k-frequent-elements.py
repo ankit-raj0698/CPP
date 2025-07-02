@@ -10,10 +10,10 @@ class Solution:
             if len(pq) > k:
                 heapq.heappop(pq)
         
-        for count,num in pq:
-            ans.append(num)
+        # for count,num in pq:
+        #     ans.append(num)
         
-        return ans
-
+        # return ans
+        return [num for count,num in pq]
 
         
