@@ -3,14 +3,15 @@ class Solution:
         ans = []
         pq = []
         freq = Counter(nums)
-        for key,val in freq.items():
-            heapq.heappush(pq,(val,key))
+        for num,count in freq.items():
+
+            heapq.heappush(pq,(count,num))
 
             if len(pq) > k:
                 heapq.heappop(pq)
         
-        for count,key in pq:
-            ans.append(key)
+        for count,num in pq:
+            ans.append(num)
         
         return ans
 
