@@ -1,36 +1,18 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        left = [1] * n
+        right = [1] * n
 
-        prod, prod_wo, zeroCnt = 1, 1, 0
-
-        for num in nums:
-            if num == 0:
-                zeroCnt += 1
-                prod = 0
-            else:
-                prod *= num
-                prod_wo *= num
+        for i in range(1,n):
+            left[i] = left[i-1] * nums[i-1]
         
-        if zeroCnt > 1:
-            return [0] * len(nums)
+        for i in range(n-2,-1,-1):
+            right[i] = right[i+1] * nums[i+1]
         
-        # ans = []
-        # for num in nums:
-        #     if num == 0:
-        #         ans.append(prod_wo)
-        #     else:
-        #         ans.append(prod//num)
-
-        # return ans
-
-        ans = [0] * len(nums)
-        for i,num in enumerate(nums):
-            if num == 0:
-                ans[i] = prod_wo
-            else:
-                ans[i] = prod//num
-
+        ans = [1] * n
+        for i in range(0,n):
+            ans[i] = left[i] * right[i]
+        
         return ans
-
-
         
