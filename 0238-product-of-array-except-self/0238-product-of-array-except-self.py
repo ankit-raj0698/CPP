@@ -11,7 +11,7 @@ class Solution:
             right[i] = right[i+1] * nums[i+1]
         
         ans = [1] * n
-        for i in range(0,n):
+        for i in range(n):
             ans[i] = left[i] * right[i]
         
         return ans
