@@ -3,9 +3,9 @@ class Solution:
         left, right = 0, len(s) - 1
 
         while left < right:
-            while left < right and (s[left].isalnum()  == False or s[left].isspace()):
+            while left < right and not s[left].isalnum():
                 left += 1
-            while left < right and (s[right].isalnum() == False or s[right].isspace()):
+            while left < right and not s[right].isalnum():
                 right -= 1
             
             if s[left].lower() != s[right].lower():
