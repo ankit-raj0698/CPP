@@ -1,33 +1,31 @@
-import java.util.*;
-
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
-        int len = arr1.length;
-        int[] ans = new int[len];
 
-        // find the freq of arr1
-        SortedMap<Integer,Integer> freq = new TreeMap<>();
+        Map<Integer, Integer> mp = new HashMap<>();
+        for(int i = 0; i < arr2.length; i++){
+            mp.put(arr2[i], i);
+        }
+
         for(int ele: arr1){
-            freq.put(ele, freq.getOrDefault(ele,0) + 1);
+            if(!mp.containsKey(ele))
+                mp.put(ele, 1000000000);
         }
 
-        // custom sort on basis of arr2
-        int k = 0;
-        for(int ele: arr2){
-            int n = freq.get(ele);
-            for(int i = 0; i < n; i++){
-                ans[k++] = ele;
-            }
-            freq.remove(ele);
+        List<Integer> list = new ArrayList<>(arr1.length);
+        for (int ele : arr1) 
+            list.add(ele);
+
+        Collections.sort(list, (num1, num2) -> {
+            if(mp.get(num1).equals(mp.get(num2)))
+                return Integer.compare(num1,num2);
+            return Integer.compare(mp.get(num1), mp.get(num2));
+        });
+
+        int i = 0;
+        for(int ele: list){
+            arr1[i++] = ele;
         }
 
-        // put rest of the elements in sorted order
-        for(Map.Entry<Integer,Integer> entry: freq.entrySet()){
-            int n = entry.getValue();
-            for(int i = 0; i < n; i++){
-                ans[k++] = entry.getKey();
-            }
-        }
-        return ans;
+        return arr1;
     }
 }
