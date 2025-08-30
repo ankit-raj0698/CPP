@@ -258,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/ankit-raj0698/CPP/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/ankit-raj0698/CPP/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/ankit-raj0698/CPP/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/ankit-raj0698/CPP/tree/master/0220-contains-duplicate-iii) |
 | [0221-maximal-square](https://github.com/ankit-raj0698/CPP/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/ankit-raj0698/CPP/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/ankit-raj0698/CPP/tree/master/0238-product-of-array-except-self) |
@@ -439,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/ankit-raj0698/CPP/tree/master/0217-contains-duplicate) |
+| [0220-contains-duplicate-iii](https://github.com/ankit-raj0698/CPP/tree/master/0220-contains-duplicate-iii) |
 | [0229-majority-element-ii](https://github.com/ankit-raj0698/CPP/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/ankit-raj0698/CPP/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
@@ -833,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/ankit-raj0698/CPP/tree/master/0164-maximum-gap) |
+| [0220-contains-duplicate-iii](https://github.com/ankit-raj0698/CPP/tree/master/0220-contains-duplicate-iii) |
 | [0347-top-k-frequent-elements](https://github.com/ankit-raj0698/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
@@ -908,6 +911,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ankit-raj0698/CPP/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/ankit-raj0698/CPP/tree/master/0219-contains-duplicate-ii) |
+| [0220-contains-duplicate-iii](https://github.com/ankit-raj0698/CPP/tree/master/0220-contains-duplicate-iii) |
 | [0239-sliding-window-maximum](https://github.com/ankit-raj0698/CPP/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ankit-raj0698/CPP/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ankit-raj0698/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -1030,6 +1034,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0220-contains-duplicate-iii](https://github.com/ankit-raj0698/CPP/tree/master/0220-contains-duplicate-iii) |
 | [0931-maximum-frequency-stack](https://github.com/ankit-raj0698/CPP/tree/master/0931-maximum-frequency-stack) |
 ## Combinatorics
 |  |
