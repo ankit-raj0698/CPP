@@ -22,6 +22,7 @@ class Solution {
             maxEle = Math.max(maxEle, ele);
         }
 
+        //PigeonHole Principle:  idea is to distribute N no. into N - 1 holes
         int bucketSize = (int)(Math.ceil((double)(maxEle - minEle)/(n-1)));
 
         List<Pair> list = new ArrayList<>();
