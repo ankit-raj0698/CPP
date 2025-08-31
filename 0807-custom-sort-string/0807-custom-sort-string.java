@@ -1,29 +1,29 @@
 class Solution {
     public String customSortString(String order, String s) {
-        Map<Character,Integer> mp = new HashMap<>();
-        for(int i = 0; i < order.length(); i++){
-            char ch = order.charAt(i);
-            mp.put(ch,i);
+
+        StringBuilder sb = new StringBuilder();
+        Set<Character> set = new HashSet<>();
+        int[] freq = new int[26];
+
+        for(char ch: order.toCharArray())
+            set.add(ch);
+
+        for(char ch: s.toCharArray()){
+            if(!set.contains(ch))
+                sb.append(ch);
+            else
+                freq[ch - 'a']++;
         }
 
-        List<Character> list = new ArrayList<>();
-        for(char ch: s.toCharArray())
-            list.add(ch);
+        for(char ch: order.toCharArray()){
+            int cnt = freq[ch - 'a'];
+            while(cnt-- > 0){
+                sb.append(ch);
+            }
+        }
 
+
+        return sb.toString();
         
-        Collections.sort(list, (ch1, ch2) -> {
-            int rank1 = mp.getOrDefault(ch1, Integer.MAX_VALUE);
-            int rank2 = mp.getOrDefault(ch2, Integer.MAX_VALUE);
-            if(rank1 == rank2)
-                return ch1 - ch2;
-            return rank1 - rank2;
-        });
-
-        StringBuilder str = new StringBuilder();
-        for(char ch: list)
-            str.append(ch);
-
-        return str.toString();
-            
     }
 }
