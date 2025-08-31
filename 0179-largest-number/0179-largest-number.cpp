@@ -12,6 +12,9 @@ public:
             res += to_string(ele);
         }
 
+        if(res[0] == '0')
+            return "0";
+
         return res;
     }
 };
