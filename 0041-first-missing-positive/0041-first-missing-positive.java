@@ -13,6 +13,7 @@ class Solution {
 
        while(i < n){
         int correctInd = nums[i] - 1;
+        // nums[i] != nums[correctInd] to handle infinite loop in [1,1] test case
         if(nums[i] > 0 && nums[i] <= n && nums[i] != nums[correctInd])
             swap(nums, i, correctInd);
         else
