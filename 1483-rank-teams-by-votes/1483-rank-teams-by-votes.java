@@ -16,12 +16,13 @@ class Solution {
 
         // sort the keys using the integer array
         List<Character> list = new ArrayList<>(map.keySet());
-        Collections.sort(list, (a, b) -> {
+        Collections.sort(list, (A, B) -> {
             for(int i = 0; i < n; i++){
-                if(map.get(a)[i] != map.get(b)[i])
-                    return map.get(b)[i] - map.get(a)[i];
+                if(map.get(A)[i] != map.get(B)[i])
+                    return map.get(B)[i] - map.get(A)[i];
             }
-             return a - b;
+            // ties at all the postion then sort alphabetically
+            return A - B;
         });
 
         StringBuilder res = new StringBuilder();
