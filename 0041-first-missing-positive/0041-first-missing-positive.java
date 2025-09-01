@@ -13,7 +13,7 @@ class Solution {
 
        while(i < n){
         int correctInd = nums[i] - 1;
-        if(nums[i] > 0 && nums[i] <= n && i != correctInd)
+        if(nums[i] > 0 && nums[i] <= n && nums[i] != nums[correctInd])
             swap(nums, i, correctInd);
         else
             i++;
