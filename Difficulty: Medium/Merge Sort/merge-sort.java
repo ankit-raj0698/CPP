@@ -9,37 +9,33 @@ class Solution {
         
         for(int i = 0; i < n1; i++)
             left[i] = arr[low + i];
-        
-        for(int i = 0; i < n2; i++)
-            right[i] = arr[mid + 1 + i];
-        
+        for(int j = 0; j < n2; j++)
+            right[j] = arr[mid + 1 + j];
+            
         int i = 0, j = 0;
         int k = low;
-            
+        
         while(i < n1 && j < n2){
-            if(left[i] <= right[j])
+            if(left[i] < right[j])
                 arr[k++] = left[i++];
             else
                 arr[k++] = right[j++];
-            
         }
         
         while(i < n1)
             arr[k++] = left[i++];
-        
-        while(j < n2)
+        while(i < n2)
             arr[k++] = right[j++];
     }
 
-    void mergeSort(int arr[], int l, int r) {
+    void mergeSort(int arr[], int low, int high) {
         // code here
-        if(l >= r)
+        if(low >= high)
             return;
-            
-        int mid = l + (r - l)/2;
-        mergeSort(arr, l, mid);
-        mergeSort(arr, mid + 1, r);
-        merge(arr, l, mid, r);
         
+        int mid = low + (high - low)/2;
+        mergeSort(arr, low, mid);
+        mergeSort(arr, mid + 1, high);
+        merge(arr, low, mid, high);
     }
 }
