@@ -16,8 +16,6 @@ class Solution {
             
             if(oddInd < size && evenInd < size){
                 swap(nums, evenInd, oddInd);
-                evenInd += 2;
-                oddInd += 2;
             }
             
         }
