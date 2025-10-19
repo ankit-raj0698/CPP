@@ -9,15 +9,12 @@ class Solution {
         int size = nums.length;
 
         while(oddInd < size && evenInd < size){
-            while(oddInd < size && nums[oddInd] % 2 == 1)
-                oddInd += 2;
-            while(evenInd < size && nums[evenInd] % 2 == 0)
-                evenInd += 2;
-            
-            if(oddInd < size && evenInd < size){
+            if(nums[evenInd] % 2 != 0){
+                while(oddInd < size && nums[oddInd] % 2 != 0)
+                    oddInd += 2;
                 swap(nums, evenInd, oddInd);
             }
-            
+            evenInd += 2;
         }
         return nums;
     }
