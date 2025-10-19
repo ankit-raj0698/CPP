@@ -17,10 +17,11 @@ class Solution {
         lessThan.addAll(equal);
         lessThan.addAll(greaterThan);
 
-        int[] ans = new int[n];
-        for(int i = 0; i < lessThan.size(); i++)
-            ans[i] = lessThan.get(i);
+        // int[] ans = new int[n];
+        // for(int i = 0; i < lessThan.size(); i++)
+        //     ans[i] = lessThan.get(i);
+        // return ans;
 
-        return ans;
+        return lessThan.stream().mapToInt(i -> i).toArray();
     }
 }
