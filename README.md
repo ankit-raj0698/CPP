@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ankit-raj0698/CPP/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/ankit-raj0698/CPP/tree/master/0179-largest-number) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ankit-raj0698/CPP/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/ankit-raj0698/CPP/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/ankit-raj0698/CPP/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/ankit-raj0698/CPP/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ankit-raj0698/CPP/tree/master/0209-minimum-size-subarray-sum) |
@@ -510,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/ankit-raj0698/CPP/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/ankit-raj0698/CPP/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ankit-raj0698/CPP/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/ankit-raj0698/CPP/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0234-palindrome-linked-list) |
 | [0344-reverse-string](https://github.com/ankit-raj0698/CPP/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/0349-intersection-of-two-arrays) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ankit-raj0698/CPP/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ankit-raj0698/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/ankit-raj0698/CPP/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/ankit-raj0698/CPP/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/ankit-raj0698/CPP/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ankit-raj0698/CPP/tree/master/0342-power-of-four) |
