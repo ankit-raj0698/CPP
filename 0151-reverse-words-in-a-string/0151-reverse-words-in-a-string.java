@@ -1,24 +1,25 @@
 class Solution {
     public String reverseWords(String s) {
         String str = s.trim();
-        String newStr = "";
+        StringBuilder newStr = new StringBuilder();
         List<String> list = new ArrayList<>();
         for(int i = 0; i < str.length(); i++){
             if(str.charAt(i) == ' '){
-                list.add(newStr.trim());
-                while(str.charAt(i) == ' ')
+                list.add(newStr.toString());
+                while(i < str.length() && str.charAt(i) == ' ')
                     i++;
-                newStr = "";
+                newStr.setLength(0);
             }
-            newStr += str.charAt(i);
+            newStr.append(str.charAt(i));
         }
-        list.add(newStr);
-        System.out.println(list);
+        list.add(newStr.toString());
         Collections.reverse(list);
-        String ans = "";
-        for(int i = 0; i < list.size(); i++)
-            ans += list.get(i) + " ";
-        
-        return ans.trim();
+        StringBuilder ans = new StringBuilder();
+        for(int i = 0; i < list.size(); i++){
+            ans.append(list.get(i));
+            if(i != list.size() - 1)
+                ans.append(' ');
+        }    
+        return ans.toString();
     }
 }
