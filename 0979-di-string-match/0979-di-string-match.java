@@ -17,7 +17,7 @@ class Solution {
                 max--;
             }
         }
-        ans[k] = min;
+        ans[k] = max;
         return ans;
     }
 }
