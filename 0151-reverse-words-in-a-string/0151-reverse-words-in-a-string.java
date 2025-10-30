@@ -1,15 +1,29 @@
 class Solution {
     public String reverseWords(String s) {
-        String[] str = s.split("\\s+");
-        //System.out.println(Arrays.toString(str));
+        int startInd = s.length() - 1;
         StringBuilder ans = new StringBuilder();
+        while(startInd >= 0){
+            // skip trailing spaces
+            while(startInd >= 0 && s.charAt(startInd) == ' ')
+                startInd--;
+            
+            //when we have seen all characters
+            if(startInd < 0)
+                break;
 
-        int n = str.length;
-        for(int i = n - 1; i >= 0; i--){
-            ans.append(str[i]);
-            if(i != 0)
-                ans.append(' ');
+            int endInd = startInd;
+            // find space
+            while(startInd >= 0 && s.charAt(startInd) != ' ')
+                startInd--;
+            //Actual word is present between startInd + 1 and endInd
+            if(ans.isEmpty())
+                ans.append(s.substring(startInd + 1, endInd + 1));
+            else{
+                ans.append(" ");
+                ans.append(s.substring(startInd + 1, endInd + 1));
+            }
+            startInd--;
         }
-        return ans.toString().trim();
+        return ans.toString();
     }
 }
