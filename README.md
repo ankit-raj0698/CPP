@@ -321,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
 | [1073-number-of-enclaves](https://github.com/ankit-raj0698/CPP/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/ankit-raj0698/CPP/tree/master/1117-as-far-from-land-as-possible) |
+| [1122-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1122-relative-sort-array) |
 | [1127-last-stone-weight](https://github.com/ankit-raj0698/CPP/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/ankit-raj0698/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1217-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1217-relative-sort-array) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-verifying-an-alien-dictionary](https://github.com/ankit-raj0698/CPP/tree/master/0990-verifying-an-alien-dictionary) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ankit-raj0698/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1039-find-the-town-judge](https://github.com/ankit-raj0698/CPP/tree/master/1039-find-the-town-judge) |
+| [1122-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1122-relative-sort-array) |
 | [1217-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1217-relative-sort-array) |
 | [1297-maximum-number-of-balloons](https://github.com/ankit-raj0698/CPP/tree/master/1297-maximum-number-of-balloons) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/ankit-raj0698/CPP/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -464,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [0958-sort-array-by-parity-ii](https://github.com/ankit-raj0698/CPP/tree/master/0958-sort-array-by-parity-ii) |
 | [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
+| [1122-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1122-relative-sort-array) |
 | [1217-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1217-relative-sort-array) |
 | [1306-minimum-absolute-difference](https://github.com/ankit-raj0698/CPP/tree/master/1306-minimum-absolute-difference) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
@@ -882,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
+| [1122-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1122-relative-sort-array) |
 | [1217-relative-sort-array](https://github.com/ankit-raj0698/CPP/tree/master/1217-relative-sort-array) |
 ## Matrix
 |  |
