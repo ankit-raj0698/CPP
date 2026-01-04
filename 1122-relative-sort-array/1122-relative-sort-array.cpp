@@ -1,22 +1,21 @@
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
-        unordered_map<int,int> mp;
-        for(int i = 0; i < arr2.size(); i++)
-            mp[arr2[i]] = i;
+        vector<int> freq(1001,0);
+        vector<int> ans;
+        for(int ele: arr1)
+            freq[ele]++;
 
-        for(int ele: arr1){
-            if(mp.find(ele) == mp.end())
-                mp[ele] = 1e9;
+        for(int ele: arr2){
+            while(freq[ele]-- > 0)
+                ans.push_back(ele);
         }
-            
-        
-        sort(arr1.begin(), arr1.end(), [&](int x, int y){
-            if(mp[x] == mp[y])
-                return x < y;
-            return mp[x] < mp[y];
-        });
 
-        return arr1;
+        for(int i = 0; i <= 1000; i++){
+            while(freq[i]-- > 0)
+                ans.push_back(i);
+        }
+
+        return ans;
     }
 };
