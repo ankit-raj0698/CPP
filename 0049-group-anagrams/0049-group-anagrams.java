@@ -12,9 +12,10 @@ class Solution {
             mp.get(key).add(str);
         }
 
-        for(Map.Entry<String, List<String>> entry: mp.entrySet()){
-            ans.add(entry.getValue());
-        }
-        return ans;
+        // for(Map.Entry<String, List<String>> entry: mp.entrySet()){
+        //     ans.add(entry.getValue());
+        // }
+        // return ans;
+        return new ArrayList<>(mp.values());
     }
 }
