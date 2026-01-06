@@ -1,29 +1,31 @@
 class Solution {
-
-    class Pair<U,V>{
-        U first;
-        V second;
-        Pair(U first, V second){
-            this.first = first;
-            this.second = second;
-        }
-    }
-
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> freq = new HashMap<>();
-        PriorityQueue<Pair<Integer,Integer>> pq = new PriorityQueue<>((a,b) -> Integer.compare(a.first,b.first));
-        int[] ans = new int[k];
-        for(int ele: nums)
-            freq.put(ele, freq.getOrDefault(ele, 0) + 1);
         
-        for(Map.Entry<Integer, Integer> entry: freq.entrySet()){
-            pq.offer(new Pair(entry.getValue(), entry.getKey()));
-            if(pq.size() > k)
-                pq.poll();
+        Map<Integer, Integer> freq = new HashMap<>();
+        List<Integer>[] buckets = new List[nums.length + 1];
+        int[] ans = new int[k];
+
+        // 1. Frequency count
+        for (int num : nums)
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+
+        // 2. Fill buckets (lazy initialization)
+        for (Map.Entry<Integer, Integer> entry : freq.entrySet()) {
+            int f = entry.getValue();
+            if (buckets[f] == null)
+                buckets[f] = new ArrayList<>();
+            buckets[f].add(entry.getKey());
         }
-        int i = 0;
-        while(!pq.isEmpty()){
-            ans[i++] = pq.poll().second;
+
+        // 3. Collect top k from highest frequency
+        int idx = 0;
+        for (int i = buckets.length - 1; i >= 0 && idx < k; i--) {
+            if (buckets[i] == null) continue;
+            for (int num : buckets[i]) {
+                ans[idx++] = num;
+                if (idx == k)
+                    return ans;
+            }
         }
         return ans;
     }
