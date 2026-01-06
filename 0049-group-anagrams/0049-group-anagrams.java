@@ -7,9 +7,10 @@ class Solution {
             Arrays.sort(chars);
             String key = new String(chars);
 
-            if(!mp.containsKey(key))
-                mp.put(key, new ArrayList<>());
-            mp.get(key).add(str);
+            // if(!mp.containsKey(key))
+            //     mp.put(key, new ArrayList<>());
+            // mp.get(key).add(str);
+            mp.computeIfAbsent(key, k -> new ArrayList<>()).add(str);
         }
 
         // for(Map.Entry<String, List<String>> entry: mp.entrySet()){
