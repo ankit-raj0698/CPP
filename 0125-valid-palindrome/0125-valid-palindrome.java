@@ -1,17 +1,21 @@
 class Solution {
+
+    boolean isAlNum(char ch){
+        return ((ch >= 'a' && ch <= 'z') 
+        || (ch >= 'A' && ch <= 'Z') 
+        || (ch >= '0' && ch <= '9'));
+    }
+
     public boolean isPalindrome(String s) {
-        String str = s.toLowerCase();
         StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < str.length(); i++){
-            char ch = str.charAt(i);
-            if((ch >= 'a' && ch <= 'z')
-            || (ch >= 'A' && ch <= 'Z')
-            || (ch >= '0' && ch <= '9'))
-                sb.append(ch);
-        }
-        int i = 0, j = sb.length() - 1;
+        int i = 0, j = s.length() - 1;
         while(i < j){
-            if(sb.charAt(i++) != sb.charAt(j--))
+            
+            while(i < j && !isAlNum(s.charAt(i)))
+                i++;
+            while(i < j && !isAlNum(s.charAt(j)))
+                j--;
+            if(Character.toLowerCase(s.charAt(i++)) != Character.toLowerCase(s.charAt(j--)))
                 return false;
         }
         return true;
