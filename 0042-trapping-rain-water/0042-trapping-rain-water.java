@@ -9,15 +9,10 @@ class Solution {
 
         for(int i = 1; i < height.length; i++){
             leftMax[i] = Math.max(leftMax[i - 1], height[i]);
-            System.out.print(leftMax[i]  + " ");
         }
-
-        System.out.println();
-            
 
         for(int i = height.length - 2; i >= 0; i--){
             rightMax[i] = Math.max(rightMax[i + 1], height[i]);
-            System.out.print(rightMax[i] + " ");
         }
             
 
