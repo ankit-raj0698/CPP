@@ -1,14 +1,9 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        Map<Integer, Integer> freq = new HashMap<>();
+        int ans = 0;
         for(int ele: nums){
-            freq.put(ele, freq.getOrDefault(ele,0) + 1);
+            ans = ans ^ ele;
         }
-
-        for(Integer key : freq.keySet()){
-            if(freq.get(key) == 1)
-                return key;
-        }
-        return 0;
+        return ans;
     }
 }
