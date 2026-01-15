@@ -741,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/ankit-raj0698/CPP/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/ankit-raj0698/CPP/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ankit-raj0698/CPP/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ankit-raj0698/CPP/tree/master/0062-unique-paths) |
