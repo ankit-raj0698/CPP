@@ -7,14 +7,23 @@ class Solution {
             freqS1[ch - 'a']++;
         }
 
-        for(int i = 0; i <= s2.length() - k; i++){
-            int[] freqS2 = new int[26];
-            for(int j = i; j < (i + k); j++){
-                char ch = s2.charAt(j);
-                freqS2[ch - 'a']++;
+        int[] freqS2 = new int[26];
+        int left = 0, right = 0, n = s2.length();
+
+        while(right < n){
+            char ch = s2.charAt(right);
+            freqS2[ch - 'a']++;
+
+            while(right - left + 1 > k){
+                freqS2[s2.charAt(left) - 'a']--;
+                left++;
             }
-            if(Arrays.equals(freqS1, freqS2))
-                return true;
+
+            if(right - left + 1 == k){
+                if(Arrays.equals(freqS1, freqS2))
+                    return true;
+            }
+            right++;
         }
           return false;  
     }
