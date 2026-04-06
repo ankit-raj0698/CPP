@@ -6,18 +6,14 @@ class Solution {
         for(int i = 0; i < n - 2; i++){
             if(i > 0 && nums[i] == nums[i -1])
                 continue;
-            int target = -nums[i];
+
             int j = i + 1;
             int k = n - 1;
 
             while(j < k){
-                int sum = nums[j] + nums[k];
-                if(sum == target){
-                    List<Integer> temp = new ArrayList<>();
-                    temp.add(nums[i]);
-                    temp.add(nums[j]);
-                    temp.add(nums[k]);
-                    ans.add(temp);
+                long sum = (long)nums[i] + nums[j] + nums[k];
+                if(sum == 0){
+                    ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     j++;
                     k--;
 
@@ -26,7 +22,7 @@ class Solution {
                     while(j < k && nums[k] == nums[k + 1])
                         k--;
                 }
-                else if(sum < target)
+                else if(sum < 0)
                     j++;
                 else
                     k--;
