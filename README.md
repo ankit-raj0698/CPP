@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/ankit-raj0698/CPP/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/ankit-raj0698/CPP/tree/master/0792-binary-search) |
 | [0816-design-hashset](https://github.com/ankit-raj0698/CPP/tree/master/0816-design-hashset) |
+| [0881-boats-to-save-people](https://github.com/ankit-raj0698/CPP/tree/master/0881-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/ankit-raj0698/CPP/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [0943-sum-of-subarray-minimums](https://github.com/ankit-raj0698/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ankit-raj0698/CPP/tree/master/0451-sort-characters-by-frequency) |
 | [0645-set-mismatch](https://github.com/ankit-raj0698/CPP/tree/master/0645-set-mismatch) |
 | [0807-custom-sort-string](https://github.com/ankit-raj0698/CPP/tree/master/0807-custom-sort-string) |
+| [0881-boats-to-save-people](https://github.com/ankit-raj0698/CPP/tree/master/0881-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/ankit-raj0698/CPP/tree/master/0948-sort-an-array) |
 | [0958-sort-array-by-parity-ii](https://github.com/ankit-raj0698/CPP/tree/master/0958-sort-array-by-parity-ii) |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ankit-raj0698/CPP/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/ankit-raj0698/CPP/tree/master/0874-backspace-string-compare) |
+| [0881-boats-to-save-people](https://github.com/ankit-raj0698/CPP/tree/master/0881-boats-to-save-people) |
 | [0908-middle-of-the-linked-list](https://github.com/ankit-raj0698/CPP/tree/master/0908-middle-of-the-linked-list) |
 | [0941-sort-array-by-parity](https://github.com/ankit-raj0698/CPP/tree/master/0941-sort-array-by-parity) |
 | [0958-sort-array-by-parity-ii](https://github.com/ankit-raj0698/CPP/tree/master/0958-sort-array-by-parity-ii) |
@@ -682,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/ankit-raj0698/CPP/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/ankit-raj0698/CPP/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ankit-raj0698/CPP/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0881-boats-to-save-people](https://github.com/ankit-raj0698/CPP/tree/master/0881-boats-to-save-people) |
 | [0979-di-string-match](https://github.com/ankit-raj0698/CPP/tree/master/0979-di-string-match) |
 | [0985-bag-of-tokens](https://github.com/ankit-raj0698/CPP/tree/master/0985-bag-of-tokens) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/ankit-raj0698/CPP/tree/master/1388-greatest-sum-divisible-by-three) |
