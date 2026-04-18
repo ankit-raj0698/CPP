@@ -1,19 +1,18 @@
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
-        int n = people.length;
         Arrays.sort(people);
-        int left = 0, right = n - 1, boatCnt = 0;
+        int n = people.length, left = 0, right = n -1, ans = 0;
         while(left <= right){
             int sum = people[left] + people[right];
             if(sum <= limit){
                 left++;
                 right--;
             }
-            else
+            else{
                 right--;
-            
-            boatCnt++;
+            }
+            ans++;   
         }
-        return boatCnt;
+        return ans;
     }
 }
