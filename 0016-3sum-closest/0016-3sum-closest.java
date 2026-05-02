@@ -3,21 +3,21 @@ class Solution {
         Arrays.sort(nums);
         int n = nums.length;
         int closestSum = nums[0] + nums[1] + nums[2];
+
         for(int i = 0; i < n - 2; i++){
             int j = i + 1;
             int k = n - 1;
 
             while(j < k){
-                int currSum = nums[i] + nums[j] + nums[k];
-                if(Math.abs(currSum - target) < Math.abs(closestSum - target))
-                    closestSum = currSum;
+                int sum = nums[i] + nums[j] + nums[k];
+                if(Math.abs(sum - target) < Math.abs(closestSum - target))
+                    closestSum = sum;
 
-                if(currSum == target){
-                    return currSum;
-                }
-                else if(currSum < target)
+                if(sum == target)
+                    return sum;
+                else if(sum < target)
                     j++;
-                else 
+                else
                     k--;
             }
         }
