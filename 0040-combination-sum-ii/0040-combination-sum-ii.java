@@ -14,13 +14,23 @@ class Solution {
         }
 
         for(int i = start; i < candidates.length; i++){
-            if(candidates[i] <= target){
-                if(i > start && candidates[i] == candidates[i - 1])
+            // if(candidates[i] <= target){
+            //     if(i > start && candidates[i] == candidates[i - 1])
+            //         continue;
+            //     temp.add(candidates[i]);
+            //     solve(candidates, target - candidates[i], i + 1, temp, ans);
+            //     temp.remove(temp.size() - 1);
+            // }
+
+            if(candidates[i] > target)
+                break;
+            
+            if(i > start && candidates[i] == candidates[i - 1])
                     continue;
-                temp.add(candidates[i]);
-                solve(candidates, target - candidates[i], i + 1, temp, ans);
-                temp.remove(temp.size() - 1);
-            }
+
+            temp.add(candidates[i]);
+            solve(candidates, target - candidates[i], i + 1, temp, ans);
+            temp.remove(temp.size() - 1);
         }
     }
 }
