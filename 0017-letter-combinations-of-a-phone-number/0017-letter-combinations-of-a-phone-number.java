@@ -2,6 +2,8 @@ class Solution {
     public List<String> letterCombinations(String digits) {
         String[] map = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         List<String> ans = new ArrayList<>();
+        if(digits.length() == 0)
+            return ans;
         solve(digits, 0, map, new StringBuilder(), ans);
         return ans;
     }
