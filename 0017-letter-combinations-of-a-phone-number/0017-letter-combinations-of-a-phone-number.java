@@ -9,7 +9,7 @@ class Solution {
     public void solve(String digits, int start, String[] map, StringBuilder temp, List<String> ans){
 
         if(start >= digits.length()){
-            ans.add(new String(temp.toString()));
+            ans.add(temp.toString());
             return;
         }
 
